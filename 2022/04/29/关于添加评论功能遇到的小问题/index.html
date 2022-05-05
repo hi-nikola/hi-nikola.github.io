@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>关于添加评论功能遇到的小问题 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="一、缺少的评论区昨天搭建好博客后，迫不及待的更新了一篇文章，十分的激动，虽然是胡乱凑了几个字，好歹也清楚说明了自己搭建博客的原因，但是总觉得还缺少了什么，哦，对！就是评论区（留言板），我觉得增加评论区是更加方便交流的，也会让其他访问网站的用户更容易留言（如果没有评论区，可能需要先找到我的个人邮箱，然后打开自己的邮箱输入内容再发送给我，这个无疑增加了沟通的成本） 二、尝试评论功能-twikoo说干就">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于添加评论功能遇到的小问题">
+<meta property="og:url" content="http://example.com/2022/04/29/%E5%85%B3%E4%BA%8E%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="一、缺少的评论区昨天搭建好博客后，迫不及待的更新了一篇文章，十分的激动，虽然是胡乱凑了几个字，好歹也清楚说明了自己搭建博客的原因，但是总觉得还缺少了什么，哦，对！就是评论区（留言板），我觉得增加评论区是更加方便交流的，也会让其他访问网站的用户更容易留言（如果没有评论区，可能需要先找到我的个人邮箱，然后打开自己的邮箱输入内容再发送给我，这个无疑增加了沟通的成本） 二、尝试评论功能-twikoo说干就">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/Snipaste_2022-04-29_13-06-32.png">
+<meta property="og:image" content="http://example.com/Snipaste_2022-04-29_13-12-39.png">
+<meta property="article:published_time" content="2022-04-29T04:51:24.000Z">
+<meta property="article:modified_time" content="2022-05-04T07:06:00.000Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="技术">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/Snipaste_2022-04-29_13-06-32.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-关于添加评论功能遇到的小问题" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/04/29/%E5%85%B3%E4%BA%8E%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/" class="article-date">
+  <time class="dt-published" datetime="2022-04-29T04:51:24.000Z" itemprop="datePublished">2022-04-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      关于添加评论功能遇到的小问题
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h4 id="一、缺少的评论区"><a href="#一、缺少的评论区" class="headerlink" title="一、缺少的评论区"></a>一、缺少的评论区</h4><p>昨天搭建好博客后，迫不及待的更新了一篇文章，十分的激动，虽然是胡乱凑了几个字，好歹也清楚说明了自己搭建博客的原因，但是总觉得还缺少了什么，哦，对！就是评论区（留言板），我觉得增加评论区是更加方便交流的，也会让其他访问网站的用户更容易留言（如果没有评论区，可能需要先找到我的个人邮箱，然后打开自己的邮箱输入内容再发送给我，这个无疑增加了沟通的成本）</p>
+<h4 id="二、尝试评论功能-twikoo"><a href="#二、尝试评论功能-twikoo" class="headerlink" title="二、尝试评论功能-twikoo"></a>二、尝试评论功能-twikoo</h4><p>说干就干，首先我在hexo交流群发现了一个非常不错的博客：<a target="_blank" rel="noopener" href="https://twikoo.js.org/">Twikoo </a>，可以使用QQ登录评论，能够自动补全昵称和邮箱，是不是很厉害！<br><img src="/Snipaste_2022-04-29_13-06-32.png" alt="1"><br>结果今天从起床开始折腾到现在，还是失败了，原因是我采用的的这个主题没有配置twikoo，自己配置是需要掌握CDN的，我从网上搜了一下相关资料，觉得对我来说有点困难于是作罢。<br><img src="/Snipaste_2022-04-29_13-12-39.png" alt="2"></p>
+<h4 id="三、新的希望-giscus"><a href="#三、新的希望-giscus" class="headerlink" title="三、新的希望-giscus"></a>三、新的希望-giscus</h4><p>giscus是由 <a target="_blank" rel="noopener" href="https://docs.github.com/en/discussions">GitHub Discussions</a> 驱动的评论系统。通过看官方文档<a target="_blank" rel="noopener" href="https://giscus.app/zh-CN">giscus</a>顺利的解决了问题（期间，也出现了一些小问题，比如在giscus官网输入我的仓库地址时，怎么输入也不正确，后来才发现不能直接copygithub左上角的地址；又比如配置yml文件时，” : “后面一定要跟个空格再输入内容，否则会导致配置失败）</p>
+<p>解决了这些小问题，评论功能终于成功了，可以点赞可以发送火箭。</p>
+<p>这个评论模块功能强大，但是有点点遗憾的就是只能够用github账号先登里再评论，不能使用其他账号。先不管了，等后面博客经验丰富了再配置吧。</p>
+<h4 id="四、总结感悟"><a href="#四、总结感悟" class="headerlink" title="四、总结感悟"></a>四、总结感悟</h4><p>经历一些波折终于还是完成了想要的功能。不禁感慨，看似容易的功能，要在自己的博客上实现还是要花一些功夫的。而且，这个过程中是需要不断地看文档解决问题，也真的要感谢神仙大佬们的文档了，真的太详细了！！能够让初学者按图索骥，摸清楚门路，这才是<strong>互联网的精神：开放、分享</strong>。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/04/29/%E5%85%B3%E4%BA%8E%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/" data-id="cl2sun3zh00097wuaee0odbhc" data-title="关于添加评论功能遇到的小问题" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2022/04/29/hexo%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          hexo发布博客的流程
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2022/04/28/%E5%85%B3%E4%BA%8E%E6%88%91/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">关于我</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%91%84%E5%BD%B1/" rel="tag">摄影</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag">随笔</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 20px;">技术</a> <a href="/tags/%E6%91%84%E5%BD%B1/" style="font-size: 10px;">摄影</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 10px;">随笔</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/04/">April 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/04/30/%E6%88%91%E5%92%8C%E6%91%84%E5%BD%B1/">谈谈我对摄影的一些思考</a>
+          </li>
+        
+          <li>
+            <a href="/2022/04/29/hexo%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B/">hexo发布博客的流程</a>
+          </li>
+        
+          <li>
+            <a href="/2022/04/29/%E5%85%B3%E4%BA%8E%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/">关于添加评论功能遇到的小问题</a>
+          </li>
+        
+          <li>
+            <a href="/2022/04/28/%E5%85%B3%E4%BA%8E%E6%88%91/">关于我</a>
+          </li>
+        
+          <li>
+            <a href="/2022/04/28/%E8%BF%9E%E6%8E%A5%E5%9F%9F%E5%90%8D/">连接域名</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
