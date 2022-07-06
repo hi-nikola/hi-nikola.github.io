@@ -1,727 +1,1049 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   
-  <title>Nikola的博客 | 用舍由时，行藏在我</title>
-
+  <title>Page 1 | Nikola的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="author" content="Nikola">
   
-
+  
   
   <meta name="description" content="摄影">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nikola的博客">
+<meta property="og:url" content="http://hi-nikola.cn/index.html">
+<meta property="og:site_name" content="Nikola的博客">
+<meta property="og:description" content="摄影">
+<meta property="og:locale">
+<meta property="article:author" content="Nikola">
+<meta property="article:tag" content="摄影">
+<meta name="twitter:card" content="summary">
   
+    <link rel="alternate" href="/atom.xml" title="Nikola的博客" type="application/atom+xml">
+  
+  <link rel="icon" href="/css/images/favicon.ico">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+    
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+  
+<link rel="stylesheet" href="/css/style.css">
+
 
   
-  <meta name="keywords" content="摄影">
-  
+<script src="/js/jquery-3.1.1.min.js"></script>
 
-  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-  
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+  <link rel="stylesheet" href="/css/fashion.css" >
+  <link rel="stylesheet" href="/css/glyphs.css" >
 
-  <meta property="og:site_name" content="Nikola的博客"/>
-
-  
-  <meta property="og:image" content="/favicon.ico"/>
-  
-
-  <link href="/favicon.ico" rel="icon">
-  <link rel="alternate" href="/atom.xml" title="Nikola的博客" type="application/atom+xml">
-  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
 <meta name="generator" content="Hexo 6.1.0"></head>
 
 
-<body>
-<div class="blog">
-  <div class="content">
 
-    <header>
-  <div class="site-branding">
-    <h1 class="site-title">
-      <a href="/">Nikola的博客</a>
-    </h1>
-    <p class="site-description">用舍由时，行藏在我</p>
+  <body>
+
+
+  
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
   </div>
-  <nav class="site-navigation">
-    <ul>
-      
-        <li><a href="/">主页</a></li>
-      
-        <li><a href="/archives">归档</a></li>
-      
-        <li><a href="/about">关于</a></li>
-      
-        <li><a href="https://hi-nikola.cn/atom.xml">RSS</a></li>
-      
-    </ul>
-  </nav>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
+
+
+<header id="allheader" class="site-header" role="banner" 
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
+  <div class="clearfix container">
+      <div class="site-branding">
+
+          <h1 class="site-title">
+            
+              <a href="/" title="Nikola的博客" rel="home"> Nikola的博客 </a>
+            
+          </h1>
+          
+          
+            <div class="site-description">摄影</div>
+          
+            
+          <nav id="main-navigation" class="main-navigation" role="navigation">
+            <a class="nav-open">Menu</a>
+            <a class="nav-close">Close</a>
+
+            <div class="clearfix sf-menu">
+              <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">Home</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">Archives</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/categories">Categories</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/tags">Tags</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">About</a> </li>
+                    
+              </ul>
+            </div>
+          </nav>
+
+      </div>
+  </div>
 </header>
 
-    <main class="site-main posts-loop">
-    
-  <article>
 
-  
-    
-    <h3 class="article-title"><a href="/2022/06/17/读点汪曾祺/"><span>读点汪曾祺</span></a></h3>
-    
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2022/06/17/读点汪曾祺/" rel="bookmark">
-        <time class="entry-date published" datetime="2022-06-17T14:27:18.000Z">
-          2022-06-17
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <p><img src="https://fastly.jsdelivr.net/gh/hi-nikola/album@main/20220617210639.5jrq8edpg1s0.jpg" alt="20220617210639"></p>
-<blockquote>
-<p>团长掏出枪来，从后面，一枪就把他打下来了。<br>“我的女人，怎么能让他摸来摸去！她身上。除了我，任何男人都不许碰！这小子，太欺负人了！日他奶奶！”团长觉得怪委屈。</p>
-</blockquote>
+  <div id="container">
+    <div id="wrap">
+            
+      <div id="content" class="outer">
         
+          <section id="main">
+  
+    <article id="post-读点汪曾祺"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2022/06/17/%E8%AF%BB%E7%82%B9%E6%B1%AA%E6%9B%BE%E7%A5%BA/">读点汪曾祺</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2022/06/17/%E8%AF%BB%E7%82%B9%E6%B1%AA%E6%9B%BE%E7%A5%BA/" class="article-date">
+	  <time datetime="2022-06-17T14:27:18.000Z" itemprop="datePublished">June 17, 2022</time>
+	</a>
+
+       
       
     </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        
 
-  </div>
+          
+          <div class="entry-summary">
+          
 
-  <div class="article-footer">
-    <div class="article-meta pull-left">
+团长掏出枪来，从后面，一枪就把他打下来了。“我的女人，怎么能让他摸来摸去！她身上。除了我，任何男人都不许碰！这小子，太欺负人了！日他奶奶！”团长觉得怪委屈。
 
-    
 
-    
-    
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/随笔/">随笔</a>
-    </span>
-    
-
+        
+          <p class="article-more-link">
+            <a href="/2022/06/17/%E8%AF%BB%E7%82%B9%E6%B1%AA%E6%9B%BE%E7%A5%BA/#more">Continue Reading →</a>
+          </p>
+        </div>
+      
     </div>
+    <footer class="entry-meta entry-footer">
+      
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag">随笔</a></li></ul>
 
-    
-    <div class="article-meta pull-right">
-      <span>
-        <i class="icon-comments"></i>
-        <span>
-          <a href="/2022/06/17/读点汪曾祺/#comment">Comments</a>
-        </span>
-      </span>
-    </div>
-    
+      
+    </footer>
+    <hr class="entry-footer-hr">
   </div>
+  
 </article>
 
-
-
-  <article>
+<!-- Table of Contents -->
 
   
+    <article id="post-记夏日摄影小事"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
-    <h3 class="article-title"><a href="/2022/05/30/记夏日摄影小事/"><span>记夏日摄影小事</span></a></h3>
     
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2022/05/30/记夏日摄影小事/" rel="bookmark">
-        <time class="entry-date published" datetime="2022-05-30T12:56:23.000Z">
-          2022-05-30
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <p>我是很讨厌晒太阳的，我总觉得能从那些日光融融里，<br>观照出自己的满身沉疴。<br>但有一些美好的事情，可以把我推搡着挤进春天，例如说草的呼吸，花的盛放。|<br>还有读诗，写作，吃面包。<br>今天写一些关于花事。</p>
+      <header class="article-header">
         
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2022/05/30/%E8%AE%B0%E5%A4%8F%E6%97%A5%E6%91%84%E5%BD%B1%E5%B0%8F%E4%BA%8B/">记夏日摄影小事</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2022/05/30/%E8%AE%B0%E5%A4%8F%E6%97%A5%E6%91%84%E5%BD%B1%E5%B0%8F%E4%BA%8B/" class="article-date">
+	  <time datetime="2022-05-30T12:56:23.000Z" itemprop="datePublished">May 30, 2022</time>
+	</a>
+
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/%E8%8C%B6%E7%BA%A2%E5%B0%8F%E8%B1%86/">茶红小豆</a>
+ 
       
     </div>
-
-  </div>
-
-  <div class="article-footer">
-    <div class="article-meta pull-left">
-
-    
+    <div class="article-entry" itemprop="articleBody">
       
+        
 
-    <span class="post-categories">
-      <i class="icon-categories"></i>
-        <a href="/categories/茶红小豆/">茶红小豆</a>
-    </span>
-    
+          
+          <div class="entry-summary">
+          我是很讨厌晒太阳的，我总觉得能从那些日光融融里，观照出自己的满身沉疴。但有一些美好的事情，可以把我推搡着挤进春天，例如说草的呼吸，花的盛放。|还有读诗，写作，吃面包。今天写一些关于花事。
 
-    
-
+        
+          <p class="article-more-link">
+            <a href="/2022/05/30/%E8%AE%B0%E5%A4%8F%E6%97%A5%E6%91%84%E5%BD%B1%E5%B0%8F%E4%BA%8B/#more">Continue Reading →</a>
+          </p>
+        </div>
+      
     </div>
+    <footer class="entry-meta entry-footer">
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/%E8%8C%B6%E7%BA%A2%E5%B0%8F%E8%B1%86/">茶红小豆</a>
 
-    
-    <div class="article-meta pull-right">
-      <span>
-        <i class="icon-comments"></i>
-        <span>
-          <a href="/2022/05/30/记夏日摄影小事/#comment">Comments</a>
-        </span>
-      </span>
-    </div>
-    
+      
+      
+    </footer>
+    <hr class="entry-footer-hr">
   </div>
+  
 </article>
 
-
-
-  <article>
+<!-- Table of Contents -->
 
   
+    <article id="post-当我在跑步的时候，我在想什么"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
-    <h3 class="article-title"><a href="/2022/05/28/当我在跑步的时候，我在想什么/"><span>当我在跑步时，我在想什么-1</span></a></h3>
     
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2022/05/28/当我在跑步的时候，我在想什么/" rel="bookmark">
-        <time class="entry-date published" datetime="2022-05-28T05:57:51.000Z">
-          2022-05-28
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <p>跑就行了，像阿甘那样，要是哪一天累了，就停下来休息一下。</p>
+      <header class="article-header">
         
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2022/05/28/%E5%BD%93%E6%88%91%E5%9C%A8%E8%B7%91%E6%AD%A5%E7%9A%84%E6%97%B6%E5%80%99%EF%BC%8C%E6%88%91%E5%9C%A8%E6%83%B3%E4%BB%80%E4%B9%88/">当我在跑步时，我在想什么-1</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2022/05/28/%E5%BD%93%E6%88%91%E5%9C%A8%E8%B7%91%E6%AD%A5%E7%9A%84%E6%97%B6%E5%80%99%EF%BC%8C%E6%88%91%E5%9C%A8%E6%83%B3%E4%BB%80%E4%B9%88/" class="article-date">
+	  <time datetime="2022-05-28T05:57:51.000Z" itemprop="datePublished">May 28, 2022</time>
+	</a>
+
+       
       
     </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        
 
-  </div>
+          
+          <div class="entry-summary">
+          跑就行了，像阿甘那样，要是哪一天累了，就停下来休息一下。
 
-  <div class="article-footer">
-    <div class="article-meta pull-left">
-
-    
-
-    
-    
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/跑步/">跑步</a>
-    </span>
-    
-
+        
+          <p class="article-more-link">
+            <a href="/2022/05/28/%E5%BD%93%E6%88%91%E5%9C%A8%E8%B7%91%E6%AD%A5%E7%9A%84%E6%97%B6%E5%80%99%EF%BC%8C%E6%88%91%E5%9C%A8%E6%83%B3%E4%BB%80%E4%B9%88/#more">Continue Reading →</a>
+          </p>
+        </div>
+      
     </div>
+    <footer class="entry-meta entry-footer">
+      
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%B7%91%E6%AD%A5/" rel="tag">跑步</a></li></ul>
 
-    
-    <div class="article-meta pull-right">
-      <span>
-        <i class="icon-comments"></i>
-        <span>
-          <a href="/2022/05/28/当我在跑步的时候，我在想什么/#comment">Comments</a>
-        </span>
-      </span>
-    </div>
-    
+      
+    </footer>
+    <hr class="entry-footer-hr">
   </div>
+  
 </article>
 
-
-
-  <article>
+<!-- Table of Contents -->
 
   
+    <article id="post-电力交易基础知识"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
-    <h3 class="article-title"><a href="/2022/05/27/电力交易基础知识/"><span>电力交易基础知识</span></a></h3>
     
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2022/05/27/电力交易基础知识/" rel="bookmark">
-        <time class="entry-date published" datetime="2022-05-27T15:49:27.000Z">
-          2022-05-27
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <p>在电改前，大部分用户都是从国家电网买电，支付的是目录电价。2016年电改后，允许电力用户直接与发电厂购电，或者通过售电公司统一代买的形式。电量变成商品，可以在电力交易中心这个市场进行交易。</p>
+      <header class="article-header">
         
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2022/05/27/%E7%94%B5%E5%8A%9B%E4%BA%A4%E6%98%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">电力交易基础知识</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2022/05/27/%E7%94%B5%E5%8A%9B%E4%BA%A4%E6%98%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="article-date">
+	  <time datetime="2022-05-27T15:49:27.000Z" itemprop="datePublished">May 27, 2022</time>
+	</a>
+
+       
       
     </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        
 
-  </div>
+          
+          <div class="entry-summary">
+          在电改前，大部分用户都是从国家电网买电，支付的是目录电价。2016年电改后，允许电力用户直接与发电厂购电，或者通过售电公司统一代买的形式。电量变成商品，可以在电力交易中心这个市场进行交易。
 
-  <div class="article-footer">
-    <div class="article-meta pull-left">
-
-    
-
-    
-    
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/电力/">电力</a>
-    </span>
-    
-
+        
+          <p class="article-more-link">
+            <a href="/2022/05/27/%E7%94%B5%E5%8A%9B%E4%BA%A4%E6%98%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/#more">Continue Reading →</a>
+          </p>
+        </div>
+      
     </div>
+    <footer class="entry-meta entry-footer">
+      
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%94%B5%E5%8A%9B/" rel="tag">电力</a></li></ul>
 
-    
-    <div class="article-meta pull-right">
-      <span>
-        <i class="icon-comments"></i>
-        <span>
-          <a href="/2022/05/27/电力交易基础知识/#comment">Comments</a>
-        </span>
-      </span>
-    </div>
-    
+      
+    </footer>
+    <hr class="entry-footer-hr">
   </div>
+  
 </article>
 
-
-
-  <article>
+<!-- Table of Contents -->
 
   
+    <article id="post-我在古代做豆腐"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
-    <h3 class="article-title"><a href="/2022/05/17/我在古代做豆腐/"><span>杂文一：从磨豆腐说起</span></a></h3>
     
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2022/05/17/我在古代做豆腐/" rel="bookmark">
-        <time class="entry-date published" datetime="2022-05-17T08:28:01.000Z">
-          2022-05-17
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <p><img src="/2022/05/17/%E6%88%91%E5%9C%A8%E5%8F%A4%E4%BB%A3%E5%81%9A%E8%B1%86%E8%85%90/t011b2670cd27f1ee3d.jpg" alt="t011b2670cd27f1ee3d"><br>以前看小说的时候，我很喜欢幻想自己穿越了。并且和那种想要穿进有钱有势之家的想法不同——我就想穿越成为普通的百姓。还是那种住在深山里面的百姓，过田间种菜，山肴野蔌的生活。</p>
+      <header class="article-header">
         
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2022/05/17/%E6%88%91%E5%9C%A8%E5%8F%A4%E4%BB%A3%E5%81%9A%E8%B1%86%E8%85%90/">杂文一：从磨豆腐说起</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2022/05/17/%E6%88%91%E5%9C%A8%E5%8F%A4%E4%BB%A3%E5%81%9A%E8%B1%86%E8%85%90/" class="article-date">
+	  <time datetime="2022-05-17T08:28:01.000Z" itemprop="datePublished">May 17, 2022</time>
+	</a>
+
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/%E8%8C%B6%E7%BA%A2%E5%B0%8F%E8%B1%86/">茶红小豆</a>
+ 
       
     </div>
-
-  </div>
-
-  <div class="article-footer">
-    <div class="article-meta pull-left">
-
-    
+    <div class="article-entry" itemprop="articleBody">
       
+        
 
-    <span class="post-categories">
-      <i class="icon-categories"></i>
-        <a href="/categories/茶红小豆/">茶红小豆</a>
-    </span>
-    
+          
+          <div class="entry-summary">
+          以前看小说的时候，我很喜欢幻想自己穿越了。并且和那种想要穿进有钱有势之家的想法不同——我就想穿越成为普通的百姓。还是那种住在深山里面的百姓，过田间种菜，山肴野蔌的生活。
 
-    
-
+        
+          <p class="article-more-link">
+            <a href="/2022/05/17/%E6%88%91%E5%9C%A8%E5%8F%A4%E4%BB%A3%E5%81%9A%E8%B1%86%E8%85%90/#more">Continue Reading →</a>
+          </p>
+        </div>
+      
     </div>
+    <footer class="entry-meta entry-footer">
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/%E8%8C%B6%E7%BA%A2%E5%B0%8F%E8%B1%86/">茶红小豆</a>
 
-    
-    <div class="article-meta pull-right">
-      <span>
-        <i class="icon-comments"></i>
-        <span>
-          <a href="/2022/05/17/我在古代做豆腐/#comment">Comments</a>
-        </span>
-      </span>
-    </div>
-    
+      
+      
+    </footer>
+    <hr class="entry-footer-hr">
   </div>
+  
 </article>
 
-
-
-  <article>
+<!-- Table of Contents -->
 
   
+    <article id="post-武汉二手书店"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
-    <h3 class="article-title"><a href="/2022/05/14/武汉二手书店/"><span>武汉二手书店探寻</span></a></h3>
     
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2022/05/14/武汉二手书店/" rel="bookmark">
-        <time class="entry-date published" datetime="2022-05-14T02:47:30.000Z">
-          2022-05-14
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <p>逛二手书店是个很奇妙的感觉。一方面总会在不经意间以极其便宜的价格淘到一本“稀罕”的书，另一方面二手书中的种种痕迹隐藏着岁月的故事。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/hi-nikola/album@main/20220508/IMG_2139_NACZsabWma.61w8ziq786w0.JPG" alt="IMG_2139_NACZsabWma"></p>
+      <header class="article-header">
         
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2022/05/14/%E6%AD%A6%E6%B1%89%E4%BA%8C%E6%89%8B%E4%B9%A6%E5%BA%97/">武汉二手书店探寻</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2022/05/14/%E6%AD%A6%E6%B1%89%E4%BA%8C%E6%89%8B%E4%B9%A6%E5%BA%97/" class="article-date">
+	  <time datetime="2022-05-14T02:47:30.000Z" itemprop="datePublished">May 14, 2022</time>
+	</a>
+
+       
       
     </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        
 
-  </div>
+          
+          <div class="entry-summary">
+          逛二手书店是个很奇妙的感觉。一方面总会在不经意间以极其便宜的价格淘到一本“稀罕”的书，另一方面二手书中的种种痕迹隐藏着岁月的故事。
 
-  <div class="article-footer">
-    <div class="article-meta pull-left">
 
-    
-
-    
-    
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/随笔/">随笔</a>
-    </span>
-    
-
+        
+          <p class="article-more-link">
+            <a href="/2022/05/14/%E6%AD%A6%E6%B1%89%E4%BA%8C%E6%89%8B%E4%B9%A6%E5%BA%97/#more">Continue Reading →</a>
+          </p>
+        </div>
+      
     </div>
+    <footer class="entry-meta entry-footer">
+      
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag">随笔</a></li></ul>
 
-    
-    <div class="article-meta pull-right">
-      <span>
-        <i class="icon-comments"></i>
-        <span>
-          <a href="/2022/05/14/武汉二手书店/#comment">Comments</a>
-        </span>
-      </span>
-    </div>
-    
+      
+    </footer>
+    <hr class="entry-footer-hr">
   </div>
+  
 </article>
 
-
-
-  <article>
+<!-- Table of Contents -->
 
   
+    <article id="post-摄影项目-我的小侄女"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
-    <h3 class="article-title"><a href="/2022/05/13/摄影项目-我的小侄女/"><span>摄影项目-我的小侄女</span></a></h3>
     
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2022/05/13/摄影项目-我的小侄女/" rel="bookmark">
-        <time class="entry-date published" datetime="2022-05-13T14:21:07.000Z">
-          2022-05-13
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <p>这些照片是20年疫情刚结束，五月份的时候在家附近的公园拍的。拍小孩子说轻松也轻松，说累也累。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/hi-nikola/album@main/20220508/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220513223621.3gjh57cxda40.jpg" alt="微信图片_20220513223621"></p>
+      <header class="article-header">
         
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2022/05/13/%E6%91%84%E5%BD%B1%E9%A1%B9%E7%9B%AE-%E6%88%91%E7%9A%84%E5%B0%8F%E4%BE%84%E5%A5%B3/">摄影项目-我的小侄女</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2022/05/13/%E6%91%84%E5%BD%B1%E9%A1%B9%E7%9B%AE-%E6%88%91%E7%9A%84%E5%B0%8F%E4%BE%84%E5%A5%B3/" class="article-date">
+	  <time datetime="2022-05-13T14:21:07.000Z" itemprop="datePublished">May 13, 2022</time>
+	</a>
+
+       
       
     </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        
 
-  </div>
+          
+          <div class="entry-summary">
+          这些照片是20年疫情刚结束，五月份的时候在家附近的公园拍的。拍小孩子说轻松也轻松，说累也累。
 
-  <div class="article-footer">
-    <div class="article-meta pull-left">
 
-    
-
-    
-    
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/摄影/">摄影</a>
-    </span>
-    
-
+        
+          <p class="article-more-link">
+            <a href="/2022/05/13/%E6%91%84%E5%BD%B1%E9%A1%B9%E7%9B%AE-%E6%88%91%E7%9A%84%E5%B0%8F%E4%BE%84%E5%A5%B3/#more">Continue Reading →</a>
+          </p>
+        </div>
+      
     </div>
+    <footer class="entry-meta entry-footer">
+      
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%91%84%E5%BD%B1/" rel="tag">摄影</a></li></ul>
 
-    
-    <div class="article-meta pull-right">
-      <span>
-        <i class="icon-comments"></i>
-        <span>
-          <a href="/2022/05/13/摄影项目-我的小侄女/#comment">Comments</a>
-        </span>
-      </span>
-    </div>
-    
+      
+    </footer>
+    <hr class="entry-footer-hr">
   </div>
+  
 </article>
 
-
-
-  <article>
+<!-- Table of Contents -->
 
   
+    <article id="post-图床实验"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
-    <h3 class="article-title"><a href="/2022/05/08/图床实验/"><span>图床实验</span></a></h3>
     
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2022/05/08/图床实验/" rel="bookmark">
-        <time class="entry-date published" datetime="2022-05-08T08:47:45.000Z">
-          2022-05-08
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <p>今天在大佬@<a target="_blank" rel="noopener" href="https://sianx.com/">浅笑安然</a>的帮助下学会了使用图床，图片加载速度一下子上来了，真的开心！</p>
-<p>下面是图床教程：</p>
-<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/353775844">如何利用 Github 搭建自己的免费图床？ - 知乎 </a></p>
-<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/353026945">如何使用免费图床 - 知乎 (zhihu.com)</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/hi-nikola/album@main/20220508/51.708uxc093ik0.jpeg" alt="51"></p>
+      <header class="article-header">
         
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2022/05/08/%E5%9B%BE%E5%BA%8A%E5%AE%9E%E9%AA%8C/">图床实验</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2022/05/08/%E5%9B%BE%E5%BA%8A%E5%AE%9E%E9%AA%8C/" class="article-date">
+	  <time datetime="2022-05-08T08:47:45.000Z" itemprop="datePublished">May 8, 2022</time>
+	</a>
+
+       
       
     </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        
 
-  </div>
+          
+          <div class="entry-summary">
+          今天在大佬@浅笑安然的帮助下学会了使用图床，图片加载速度一下子上来了，真的开心！
+下面是图床教程：
+如何利用 Github 搭建自己的免费图床？ - 知乎 
+如何使用免费图床 - 知乎 (zhihu.com)
 
-  <div class="article-footer">
-    <div class="article-meta pull-left">
 
-    
-
-    
-    
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/摄影/">摄影</a>
-    </span>
-    
-
+        
+          <p class="article-more-link">
+            <a href="/2022/05/08/%E5%9B%BE%E5%BA%8A%E5%AE%9E%E9%AA%8C/#more">Continue Reading →</a>
+          </p>
+        </div>
+      
     </div>
+    <footer class="entry-meta entry-footer">
+      
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%91%84%E5%BD%B1/" rel="tag">摄影</a></li></ul>
 
-    
-    <div class="article-meta pull-right">
-      <span>
-        <i class="icon-comments"></i>
-        <span>
-          <a href="/2022/05/08/图床实验/#comment">Comments</a>
-        </span>
-      </span>
-    </div>
-    
+      
+    </footer>
+    <hr class="entry-footer-hr">
   </div>
+  
 </article>
 
-
-
-  <article>
+<!-- Table of Contents -->
 
   
+    <article id="post-聊一聊我最近一直在思考的问题：互联网和信息茧房"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
-    <h3 class="article-title"><a href="/2022/05/07/聊一聊我最近一直在思考的问题：互联网和信息茧房/"><span>聊一聊我对互联网的思考</span></a></h3>
     
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2022/05/07/聊一聊我最近一直在思考的问题：互联网和信息茧房/" rel="bookmark">
-        <time class="entry-date published" datetime="2022-05-07T12:56:24.000Z">
-          2022-05-07
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <p><img src="/2022/05/07/%E8%81%8A%E4%B8%80%E8%81%8A%E6%88%91%E6%9C%80%E8%BF%91%E4%B8%80%E7%9B%B4%E5%9C%A8%E6%80%9D%E8%80%83%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%9A%E4%BA%92%E8%81%94%E7%BD%91%E5%92%8C%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/(38).jpeg" alt="(38)"></p>
-<p>今天兴趣来了，聊一聊互联网的发展，和我对短视频时代“问题”的一些想法。</p>
+      <header class="article-header">
         
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2022/05/07/%E8%81%8A%E4%B8%80%E8%81%8A%E6%88%91%E6%9C%80%E8%BF%91%E4%B8%80%E7%9B%B4%E5%9C%A8%E6%80%9D%E8%80%83%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%9A%E4%BA%92%E8%81%94%E7%BD%91%E5%92%8C%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/">聊一聊我对互联网的思考</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2022/05/07/%E8%81%8A%E4%B8%80%E8%81%8A%E6%88%91%E6%9C%80%E8%BF%91%E4%B8%80%E7%9B%B4%E5%9C%A8%E6%80%9D%E8%80%83%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%9A%E4%BA%92%E8%81%94%E7%BD%91%E5%92%8C%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/" class="article-date">
+	  <time datetime="2022-05-07T12:56:24.000Z" itemprop="datePublished">May 7, 2022</time>
+	</a>
+
+       
       
     </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        
 
-  </div>
+          
+          <div class="entry-summary">
+          
+今天兴趣来了，聊一聊互联网的发展，和我对短视频时代“问题”的一些想法。
 
-  <div class="article-footer">
-    <div class="article-meta pull-left">
-
-    
-
-    
-    
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/随笔/">随笔</a>
-    </span>
-    
-
+        
+          <p class="article-more-link">
+            <a href="/2022/05/07/%E8%81%8A%E4%B8%80%E8%81%8A%E6%88%91%E6%9C%80%E8%BF%91%E4%B8%80%E7%9B%B4%E5%9C%A8%E6%80%9D%E8%80%83%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%9A%E4%BA%92%E8%81%94%E7%BD%91%E5%92%8C%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/#more">Continue Reading →</a>
+          </p>
+        </div>
+      
     </div>
+    <footer class="entry-meta entry-footer">
+      
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag">随笔</a></li></ul>
 
-    
-    <div class="article-meta pull-right">
-      <span>
-        <i class="icon-comments"></i>
-        <span>
-          <a href="/2022/05/07/聊一聊我最近一直在思考的问题：互联网和信息茧房/#comment">Comments</a>
-        </span>
-      </span>
-    </div>
-    
+      
+    </footer>
+    <hr class="entry-footer-hr">
   </div>
+  
 </article>
 
-
-
-  <article>
+<!-- Table of Contents -->
 
   
+    <article id="post-我的工具箱"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
-    <h3 class="article-title"><a href="/2022/05/07/我的工具箱/"><span>我的百宝箱</span></a></h3>
     
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2022/05/07/我的工具箱/" rel="bookmark">
-        <time class="entry-date published" datetime="2022-05-07T01:24:57.000Z">
-          2022-05-07
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <p><img src="/2022/05/07/%E6%88%91%E7%9A%84%E5%B7%A5%E5%85%B7%E7%AE%B1/1.jpg" alt="1"></p>
-<p>这里罗列我平时常用的一些提升效率的软件、常看的网站论坛、推荐的书籍</p>
+      <header class="article-header">
         
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2022/05/07/%E6%88%91%E7%9A%84%E5%B7%A5%E5%85%B7%E7%AE%B1/">我的百宝箱</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2022/05/07/%E6%88%91%E7%9A%84%E5%B7%A5%E5%85%B7%E7%AE%B1/" class="article-date">
+	  <time datetime="2022-05-07T01:24:57.000Z" itemprop="datePublished">May 7, 2022</time>
+	</a>
+
+       
       
     </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        
 
-  </div>
+          
+          <div class="entry-summary">
+          
+这里罗列我平时常用的一些提升效率的软件、常看的网站论坛、推荐的书籍
 
-  <div class="article-footer">
-    <div class="article-meta pull-left">
-
-    
-
-    
-    
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/技术/">技术</a>
-    </span>
-    
-
+        
+          <p class="article-more-link">
+            <a href="/2022/05/07/%E6%88%91%E7%9A%84%E5%B7%A5%E5%85%B7%E7%AE%B1/#more">Continue Reading →</a>
+          </p>
+        </div>
+      
     </div>
+    <footer class="entry-meta entry-footer">
+      
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
 
-    
-    <div class="article-meta pull-right">
-      <span>
-        <i class="icon-comments"></i>
-        <span>
-          <a href="/2022/05/07/我的工具箱/#comment">Comments</a>
-        </span>
-      </span>
-    </div>
-    
+      
+    </footer>
+    <hr class="entry-footer-hr">
   </div>
+  
 </article>
 
+<!-- Table of Contents -->
 
-
-
-<nav class="pagination">
   
-  
-  <a href="/page/2/" class="pagination-next">Next</a>
-  
-</nav>
-    </main>
 
-    <footer class="site-footer">
-  <p class="site-info">
-    <!-- Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
-    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a> -->
-    <!-- <a href="https://www.foreverblog.cn/" target="_blank">
-      <img id="logo" src="https://img.foreverblog.cn/logo_en_default.png">
-  </a> -->
-    <span id="runtime_span">网站已在风雨中运行:267天23小时45分40秒</span><script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new Date("03/24/2022 00:00:00");Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);runtime_span.innerHTML="网站已在风雨中运行:"+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();</script>
-    <!-- <br/> -->
-    <!-- <a target="_blank" href="https://beian.miit.gov.cn/" rel="nofollow noopener" title="工业和信息化部ICP/IP地址/域名信息备案管理系统">鄂ICP备2022004947号</a> -->
-    </br>
+
+  <nav id="page-nav">
     
-    &copy; 2022 Nikola
-    
-  </p>
-</footer>
-    
-    
-  </div>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next</a>
+  </nav>
+
+</section>
+          <aside id="sidebar">
+  
+    <div style="margin: 20px 0;">
+	<div id="search-form-wrap">
+
+    <form class="search-form">
+        <label style="width: 72%;">
+            <span class="screen-reader-text">Search for:</span>
+            <input type="search" class="search-field" style="height: 36px; width: 100%;" placeholder=" Search…" value="" name="s" title="Search for:">
+        </label>
+        <input type="submit" class="search-form-submit" value="Search">
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..."/>
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
 </div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+</div>
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Connect With Us</h3>
+    <div class="widget widget_athemes_social_icons">
+
+    	<ul class="clearfix widget-social-icons">   
+    	
+   			<li><a target="_blank" rel="noopener" href="https://github.com/iTimeTraveler" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
+
+   		
+   			<li><a href="" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a></li> 
+
+   		
+   			<li><a href="" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> 
+
+   		
+   			<li><a href="" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
+
+   		
+   			<li><a href="" title="Google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> 
+
+   		
+   			<li><a href="" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
+
+   		
+   		</ul>
+
+
+   		<!--
+   		<ul class="clearfix widget-social-icons">   		
+   		<li class="widget-si-twitter"><a target="_blank" rel="noopener" href="http://twitter.com" title="Twitter"><i class="ico-twitter"></i></a></li> 
+		<li class="widget-si-facebook"><a target="_blank" rel="noopener" href="http://facebook.com" title="Facebook"><i class="ico-facebook"></i></a></li>
+			<li class="widget-si-gplus"><a target="_blank" rel="noopener" href="http://plus.google.com" title="Google+"><i class="ico-gplus"></i></a></li>
+			<li class="widget-si-pinterest"><a target="_blank" rel="noopener" href="http://pinterest.com" title="Pinterest"><i class="ico-pinterest"></i></a></li>
+			<li class="widget-si-flickr"><a target="_blank" rel="noopener" href="http://flickr.com" title="Flickr"><i class="ico-flickr"></i></a></li>
+			<li class="widget-si-instagram"><a target="_blank" rel="noopener" href="http://instagram.com" title="Instagram"><i class="ico-instagram"></i></a></li>
+		</ul> -->
+
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget_athemes_tabs">
+    <ul id="widget-tab" class="clearfix widget-tab-nav">
+      <li class="active"><a>Recent Posts</a></li>
+    </ul>
+    <div class="widget">
+      <ul>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/2022/06/17/%E8%AF%BB%E7%82%B9%E6%B1%AA%E6%9B%BE%E7%A5%BA/">读点汪曾祺</a></h6>
+              <span>June 17, 2022</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/2022/05/30/%E8%AE%B0%E5%A4%8F%E6%97%A5%E6%91%84%E5%BD%B1%E5%B0%8F%E4%BA%8B/">记夏日摄影小事</a></h6>
+              <span>May 30, 2022</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/2022/05/28/%E5%BD%93%E6%88%91%E5%9C%A8%E8%B7%91%E6%AD%A5%E7%9A%84%E6%97%B6%E5%80%99%EF%BC%8C%E6%88%91%E5%9C%A8%E6%83%B3%E4%BB%80%E4%B9%88/">当我在跑步时，我在想什么-1</a></h6>
+              <span>May 28, 2022</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/2022/05/27/%E7%94%B5%E5%8A%9B%E4%BA%A4%E6%98%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">电力交易基础知识</a></h6>
+              <span>May 27, 2022</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/2022/05/17/%E6%88%91%E5%9C%A8%E5%8F%A4%E4%BB%A3%E5%81%9A%E8%B1%86%E8%85%90/">杂文一：从磨豆腐说起</a></h6>
+              <span>May 17, 2022</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/2022/05/14/%E6%AD%A6%E6%B1%89%E4%BA%8C%E6%89%8B%E4%B9%A6%E5%BA%97/">武汉二手书店探寻</a></h6>
+              <span>May 14, 2022</span>
+            </div>
+
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%8C%B6%E7%BA%A2%E5%B0%8F%E8%B1%86/">茶红小豆</a><span class="category-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%91%84%E5%BD%B1/" rel="tag">摄影</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%B5%E5%8A%9B/" rel="tag">电力</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B7%91%E6%AD%A5/" rel="tag">跑步</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag">随笔</a><span class="tag-list-count">4</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 15px;">技术</a> <a href="/tags/%E6%91%84%E5%BD%B1/" style="font-size: 20px;">摄影</a> <a href="/tags/%E7%94%B5%E5%8A%9B/" style="font-size: 10px;">电力</a> <a href="/tags/%E8%B7%91%E6%AD%A5/" style="font-size: 10px;">跑步</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 20px;">随笔</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/06/">June 2022</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/05/">May 2022</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/04/">April 2022</a><span class="archive-list-count">5</span></li></ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+        
+      </div>
+
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/categories" class="mobile-nav-link">Categories</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
+    <footer id="footer" class="site-footer">
+  
+
+  <div class="clearfix container">
+      <div class="site-info">
+	      &copy; 2022 Nikola的博客 All Rights Reserved.
+        
+            <span id="busuanzi_container_site_uv">
+              本站访客数<span id="busuanzi_value_site_uv"></span>人次  
+              本站总访问量<span id="busuanzi_value_site_pv"></span>次
+            </span>
+          
+      </div>
+      <div class="site-credit">
+        Theme by <a href="https://github.com/iTimeTraveler/hexo-theme-hipaper" target="_blank">hipaper</a>
+      </div>
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+
+
+    <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
+    
+    
+</script>
+    
+<div style="display: none;">
+  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+</div>
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+<script src="/js/bootstrap.js"></script>
+
+
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+
+
+  <div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+	</script>
+
+
+
+
+
+
+  </div>
+
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js" async=""></script>
 </body>
 </html>
