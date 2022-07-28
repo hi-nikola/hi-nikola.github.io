@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>精益数据分析-指标 | Nikola的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <meta name="keywords" content="摄影" />
+  
+  
+  
+  
+  <meta name="description" content="1《精益数据分析》学习笔记  数据分析离不开对企业关键指标的跟踪。这些指标与你的商业模式（即营收来源、支出成本、客户数量以及客户获取策略的效果等）有关，因此往往十分重要。&amp;#x20; 数据不止会得出更好的决策，也能提高组织的效率。如果每个人都愿意接受数据启发的工作方式，你就能建立起自发的、扁平化的组织，因为你不再需要在组织中贯彻一个观点，只需要让事实说话就行了。你可以授权员工做更多的决策，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="精益数据分析-指标">
+<meta property="og:url" content="http://hi-nikola.cn/2022/07/28/%E7%B2%BE%E7%9B%8A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90-%E6%8C%87%E6%A0%87/index.html">
+<meta property="og:site_name" content="Nikola的博客">
+<meta property="og:description" content="1《精益数据分析》学习笔记  数据分析离不开对企业关键指标的跟踪。这些指标与你的商业模式（即营收来源、支出成本、客户数量以及客户获取策略的效果等）有关，因此往往十分重要。&amp;#x20; 数据不止会得出更好的决策，也能提高组织的效率。如果每个人都愿意接受数据启发的工作方式，你就能建立起自发的、扁平化的组织，因为你不再需要在组织中贯彻一个观点，只需要让事实说话就行了。你可以授权员工做更多的决策，">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207281718415.jpg">
+<meta property="article:published_time" content="2022-07-28T09:14:15.000Z">
+<meta property="article:modified_time" content="2022-07-28T09:20:41.218Z">
+<meta property="article:author" content="Nikola">
+<meta property="article:tag" content="数据">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207281718415.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="Nikola的博客" type="application/atom+xml">
+  
+  <link rel="icon" href="/css/images/favicon.ico">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+    
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+<script src="/js/jquery-3.1.1.min.js"></script>
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+  <link rel="stylesheet" href="/css/fashion.css" >
+  <link rel="stylesheet" href="/css/glyphs.css" >
+
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+
+
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
+
+
+  
+
+
+<header id="allheader" class="site-header" role="banner" 
+   >
+  <div class="clearfix container">
+      <div class="site-branding">
+
+          <h1 class="site-title">
+            
+              <a href="/" title="Nikola的博客" rel="home"> Nikola的博客 </a>
+            
+          </h1>
+          
+          
+            <div class="site-description">用舍由时，行藏在我</div>
+          
+            
+          <nav id="main-navigation" class="main-navigation" role="navigation">
+            <a class="nav-open">Menu</a>
+            <a class="nav-close">Close</a>
+
+            <div class="clearfix sf-menu">
+              <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">首页</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">归档</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">关于</a> </li>
+                    
+              </ul>
+            </div>
+          </nav>
+
+      </div>
+  </div>
+</header>
+
+
+  <div id="container">
+    <div id="wrap">
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;"><article id="post-精益数据分析-指标" style="width: 66%; float:left;" class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    
+<div class="article-gallery">
+  <div class="article-gallery-photos">
+    
+      <a class="article-gallery-img fancybox" target="_blank" href="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207281718415.jpg" rel="gallery_cl64tt404000zusua3pjlhm4m noopener">
+        <img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207281718415.jpg" itemprop="image">
+      </a>
+    
+  </div>
+</div>
+
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" class="article-title" itemprop="name">
+      精益数据分析-指标
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2022/07/28/%E7%B2%BE%E7%9B%8A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90-%E6%8C%87%E6%A0%87/" class="article-date">
+	  <time datetime="2022-07-28T09:14:15.000Z" itemprop="datePublished">七月 28, 2022</time>
+	</a>
+
+       
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">《精益数据分析》学习笔记</span><br></pre></td></tr></table></figure>
+
+<p>数据分析离不开对企业关键指标的跟踪。这些指标与你的商业模式（即营收来源、支出成本、客户数量以及客户获取策略的效果等）有关，因此往往十分重要。&amp;#x20;</p>
+<p>数据不止会得出更好的决策，也能提高组织的效率。如果每个人都愿意接受数据启发的工作方式，你就能建立起自发的、扁平化的组织，因为你不再需要在组织中贯彻一个观点，只需要让事实说话就行了。你可以授权员工做更多的决策，承担更多的责任，只要他们有适当的数据来支持他们的决策。创造一个责任制的文化，奖励那些愿意走上前来发表观点的</p>
+<span id="more"></span> 
+
+<h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><ul>
+<li><p>指标，用于衡量事物发展程度的单位或方法。指标可以分为绝对数指标和相对数指标，绝对数指标反映的是规模大小的指标，如人口数、GDP、收入、用户数，而相对数指标主要用来反映质量好坏的指标，如利润率、留存率、覆盖率等。</p>
+</li>
+<li><p>第一关键指标，OMTM（One Metric That Matters，第一关键指标），就是一个在当前阶段高于一切、需要你集中全部注意力的数字</p>
+</li>
+</ul>
+<h3 id="什么是好的数据指标"><a href="#什么是好的数据指标" class="headerlink" title="什么是好的数据指标"></a>什么是好的数据指标</h3><ul>
+<li><p>好的数据指标是比较性的。如果能比较某数据指标在不同的时间段、用户群体、竞争产品之间的表现，你可以更好地洞察产品的实际走向。“本周的用户转化率比上周高”显然比“转化率为 2%”更有意义。&amp;#x20;</p>
+</li>
+<li><p>好的数据指标是简单易懂的。如果人们不能很容易地记住或讨论某指标，那么通过改变它来改变公司的作为会十分困难。</p>
+</li>
+<li><p>好的数据指标是一个比率。会计和金融分析师仅需迅速查看几个比率就能对一个公司的基本状况做出判断。</p>
+</li>
+</ul>
+<h3 id="如何找出正确的数据指标"><a href="#如何找出正确的数据指标" class="headerlink" title="如何找出正确的数据指标"></a>如何找出正确的数据指标</h3><ul>
+<li><p>定性指标与量化指标</p>
+<p>。定性指标是经验性的</p>
+<p>。量化指标涉及统计数据，可提供可靠的量化结果</p>
+</li>
+<li><p>虚荣指标与可付诸行动的指标</p>
+<p>。如果你有一个数据，却不知如何根据它采取行动，该数据就仅仅是一个虚荣指标</p>
+<p>。八个要避免的虚荣指标</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>点击量</span><br><span class="line"><span class="number">2</span>页面浏览量（PV）</span><br><span class="line"><span class="number">3</span>访问量</span><br><span class="line"><span class="number">4</span>独立访客数（UV 只能显示有多少人访问了网页，却不能告诉你这些人在页面上做了什么？他们为什么停留？是否离开了？ ）</span><br><span class="line"><span class="number">5</span>粉丝<span class="operator">/</span>好友<span class="operator">/</span>赞的数量</span><br><span class="line"><span class="number">6</span>网站停留时间</span><br><span class="line"><span class="number">7</span>收集到的用户邮件地址量</span><br><span class="line"><span class="number">8</span>下载量</span><br></pre></td></tr></table></figure>
+
+<p>。对于虚荣数据指标，比如独立访客数的统计，只能显示有多少人访问了网页，却不能告诉你这些人在页面上做了什么？他们为什么停留？是否离开了？&amp;#x20;</p>
+</li>
+<li><p>探索性指标与报告性指标</p>
+<p>。探索性指标是推测性的</p>
+<p>。报告性指标是陈述性的报告日常数据信息</p>
+</li>
+<li><p>先见性指标与后见性指标&amp;#x20;</p>
+<p>。先见性指标用于预言未来</p>
+<p>。后见性指标则用于解释过去</p>
+</li>
+<li><p>相关性指标与因果性指标</p>
+<p>。如果两个指标总是一同变化，则说明它们是相关的</p>
+<p>。如果其中一个指标可以导致另一个指标的变化，则它们之间具有因果关系</p>
+</li>
+</ul>
+<p>分析师特别关心那些能推动公司业绩增长的指标，即<strong>关键绩效指标（KPI）</strong>。每个行业都有自己的关键绩效指标：如果你是餐馆老板，该指标是每晚用掉的桌布量（翻台量）；如果你是投资者，该指标是你的投资回报率；如果你运营媒体网站，该指标是广告的点击率；</p>
+<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p><strong>市场细分：</strong> 把一群拥有某种共同特征的人进行分类.</p>
+<p><strong>同期群分析：</strong> 按时间维度对用户建立分组，观察分组用户的行为特征表现。</p>
+<p><strong>A&#x2F;B 测试：</strong>同一时间段对不同被试群体提供不同的体验。A&#x2F;B 测试看似简单易行，实则有一个软肋。只有用户流量巨大的大型网站（如微软必应、谷歌）能对单一的因素（如链接颜色、网页速度）进行测试并迅速得到答案。如果没有庞大的用户流量，你将需要测试很多因素。这可能包括网页的色调，触发用户行为的链接文字，图片效果等。进行一连串的单独测试会延长你走向成熟的周期。与其如此，不如采用<strong>多变量分析法</strong>同时对多个属性进行测试，其原理为，用统计学方法剥离出单个影响因子与结果中某一项指标提升的相关性。</p>
+<h3 id="数据分析框架"><a href="#数据分析框架" class="headerlink" title="数据分析框架"></a>数据分析框架</h3><ul>
+<li><p><strong>戴夫·麦克卢尔的海盗指标说</strong><br>麦克卢尔将创业公司最需要关注的指标分为五大类：<br>获取用户（Acquisition）<br>提高活跃度（Activation）<br>提高留存率（Retention）<br>获取营收（Revenue）<br>自传播（Referral）<br>以上简称 AARRR。</p>
+<p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207281712434.png"></p>
+<p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207281712431.png"></p>
+</li>
+<li><p><strong>埃里克·莱斯的增长引擎说</strong></p>
+<p>。黏着式增长引擎（黏着式增长引擎的重点是让用户成为回头客，并且持续使用你的产品，它和戴夫·麦克卢尔的提高留存率阶段这个概念类似）</p>
+<p>。病毒式增长引擎</p>
+<p>。付费式增长引擎</p>
+</li>
+<li><p>长漏斗框架<br>一种分析方法，能够帮你理解你最初是如何获得客户的注意力的，以及客户从最初得知该网站到发生你所期望的行为（例如完成一次购物、生产一些内容、分享一段信息）的全过程。</p>
+<p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207281712432.png"></p>
+</li>
+</ul>
+<h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><p>花了几天看完了这本书，其中商业模式这一部分我没有整理，对于SAAS我后面会进一步介绍。书中有这么一句话：</p>
+<blockquote>
+<p>市场上有太多的消费者了，而且他们的决策方式是非理性的，所以你可以操纵他们的感情。毫无疑问，云计算和社会化媒体使得我们不需要很多前期投入就可以推出并宣传产品</p>
+</blockquote>
+<p>目前当我们浏览网页、购物等时自己的数据已经被收集（用户数据、行为数据、）可参考文章：</p>
+<p><a target="_blank" rel="noopener" href="https://www.woshipm.com/data-analysis/3045022.html" title="掌握数据生命周期：用户行为数据的4个来源 | 人人都是产品经理 (woshipm.com)">掌握数据生命周期：用户行为数据的4个来源 | 人人都是产品经理 (woshipm.com)</a></p>
+<p>其中重要的是行为数据：</p>
+<blockquote>
+<p>who即唯一标识用户，在移动端，我们可以很方便地采集到user_id，一旦用户注册，就会生成新的user_id。（为了更好地统一和识别唯一用户，移动端还会采集device_id，通过手机设备自带的唯一标识码进行区分）<br>when依旧是行为发生的时间。<br>where即行为发生的地点，手机上，通过GPS定位权限，获取用户比IP更详细的经纬度数据并不难。<br>what是具体的行为，浏览、点赞、评论、分享、关注、下单、举报、打赏，均是行为，如何统计取决于分析的维度。</p>
+</blockquote>
+<p>现在流行一句话：大数据比你自己更了解你自己。我们的数据被采集后建立用户画像进行个性化推荐。</p>
+<p>参考<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/54843812" title="https://zhuanlan.zhihu.com/p/54843812">https://zhuanlan.zhihu.com/p/54843812</a>内容：</p>
+<blockquote>
+<p>比如我们建立用户画像之后，计算出来甲购买课程的意愿是 40%，乙购买课程的意愿是 90%。为了进一步提高购买量，我们会对购买意愿在 40% 的用户（甲）发放优惠券。如果没有建立这样一个用户画像标签，我们就会对甲和乙发放同样的优惠券。而乙类用户原本是不需要用优惠券进行激励的，这么一发，便会增加很多成本。这也就是电商利用用户画像标签实现的大数据杀熟。</p>
+</blockquote>
+<p>甚至不管我们决策方式是否理性，我们都在被数据影响着。</p>
+
+      
+    </div>
+    <footer class="entry-meta entry-footer">
+      
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE/" rel="tag">数据</a></li></ul>
+
+      
+      
+      
+    </footer>
+    <hr class="entry-footer-hr">
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2022/07/09/%E6%B1%AA%E6%9B%BE%E7%A5%BA%E5%92%8C%E6%B2%99%E5%AE%B6%E6%B5%9C/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <div class="article-nav-title">汪曾祺和沙家浜</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+<!-- Table of Contents -->
+
+  <aside id="sidebar">
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    
+      <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="nav-number">1.</span> <span class="nav-text">基本概念</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%A5%BD%E7%9A%84%E6%95%B0%E6%8D%AE%E6%8C%87%E6%A0%87"><span class="nav-number">2.</span> <span class="nav-text">什么是好的数据指标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E6%89%BE%E5%87%BA%E6%AD%A3%E7%A1%AE%E7%9A%84%E6%95%B0%E6%8D%AE%E6%8C%87%E6%A0%87"><span class="nav-number">3.</span> <span class="nav-text">如何找出正确的数据指标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95"><span class="nav-number">4.</span> <span class="nav-text">测试</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6"><span class="nav-number">5.</span> <span class="nav-text">数据分析框架</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%80%E5%90%8E"><span class="nav-number">6.</span> <span class="nav-text">最后</span></a></li></ol>
+    
+    </div>
+  </aside>
+
+
+</section>
+        
+      </div>
+
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">首页</a>
+  
+    <a href="/archives" class="mobile-nav-link">归档</a>
+  
+    <a href="/about" class="mobile-nav-link">关于</a>
+  
+</nav> -->
+    <footer id="footer" class="site-footer">
+  
+
+  <div class="clearfix container">
+      <div class="site-info">
+	      &copy; 2022 Nikola的博客 All Rights Reserved.
+        
+      </div>
+      <div class="site-credit">
+        工信部备案号 <a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2022004947号</a>
+      </div>
+      <div class="site-info">
+      <span id="runtime_span">网站已在风雨中运行:267天23小时45分40秒</span><script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new Date("03/24/2022 00:00:00");Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);runtime_span.innerHTML="网站已在风雨中运行:"+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();</script>
+      </div>
+      <!-- <a target="_blank" href="https://beian.miit.gov.cn/" rel="nofollow noopener" title="工业和信息化部ICP/IP地址/域名信息备案管理系统">鄂ICP备2022004947号</a> -->
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+
+
+    <!-- headerblur min height -->
+    
+    
+</script>
+    
+<div style="display: none;">
+  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+</div>
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+<script src="/js/bootstrap.js"></script>
+
+
+<script src="/js/main.js"></script>
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'true', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?{{ theme.baidu_analytics }}";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  </div>
+
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js" async=""></script>
+</body>
+</html>
