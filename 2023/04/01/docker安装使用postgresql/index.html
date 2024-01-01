@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="docker安装使用postgresql" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="image/webp" href="/img/favicon.ico">
+    <title>Nikola的博客 | 用舍由时，行藏在我</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Nikola的博客" type="application/atom+xml">
+</head>
+    
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">Nikola的博客</a> 
+            <span class="description">用舍由时，行藏在我</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">首页</a></li>
+            
+        
+            
+                <li><a href="/list/">文章</a></li>
+            
+        
+            
+                <li><a target="_blank" rel="noopener" href="https://photo.hi-nikola.cn/">摄影</a></li>
+            
+        
+            
+                <li><a href="/about/">关于</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            docker安装使用postgresql
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+            
+                <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#docker-%E5%AE%89%E8%A3%85%E5%92%8C%E8%BF%90%E8%A1%8C"><span class="post-toc-text">docker 安装和运行</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E8%B5%84%E6%96%99"><span class="post-toc-text">资料</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#docker%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="post-toc-text">docker的基本操作</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E8%BF%90%E8%A1%8Cpostgresql"><span class="post-toc-text">运行postgresql</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E8%B5%84%E6%96%99-1"><span class="post-toc-text">资料</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#docker%E5%B8%B8%E7%94%A8%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4"><span class="post-toc-text">docker常用基本命令</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#postgresql%E8%AF%AD%E6%B3%95"><span class="post-toc-text">postgresql语法</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E6%8F%92%E5%85%A5"><span class="post-toc-text">插入</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E6%9B%B4%E6%96%B0"><span class="post-toc-text">更新</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E5%88%A0%E9%99%A4"><span class="post-toc-text">删除</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E8%87%AA%E6%B5%8B%E9%A2%98"><span class="post-toc-text">自测题</span></a></li></ol></li></ol>
+            
+        
+        <p>因为之前docker接触的不多，来新公司之后公司数据库用的是pg，感觉安装很麻烦，于是试了一下docker安装，几分钟就搞定了，真方便！自从用了docker之后再也离不开它了！</p>
+<p>这里说一下，Windows电脑安装docker之前要安装wsl。这样就可以在Windows系统跑Ubuntu，直接命令行 <code>wsl</code>就进入了！</p>
+<span id="more"></span>
+
+<h2 id="docker-安装和运行"><a href="#docker-安装和运行" class="headerlink" title="docker 安装和运行"></a>docker 安装和运行</h2><h3 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h3><p>可参考：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/yahuian/p/13888668.html">Ubuntu 20.04 Docker 安装并配置 - YahuiAn - 博客园 (cnblogs.com)</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV11L411g7U1/?spm_id_from=333.337.search-card.all.click&vd_source=92e68e40f149ffa695a215115d8a042a">Docker 1小时快速上手教程，无废话纯干货_哔哩哔哩_bilibili</a></li>
+<li><a target="_blank" rel="noopener" href="https://docker.easydoc.net/">🎉 Docker 简介和安装 - Docker 快速入门 (easydoc.net)</a></li>
+<li><a target="_blank" rel="noopener" href="https://hub.docker.com/">DockerHub</a><br>生命周期流程：<br><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202304011310785.png"></li>
+</ul>
+<h3 id="docker的基本操作"><a href="#docker的基本操作" class="headerlink" title="docker的基本操作"></a>docker的基本操作</h3><pre><code class="shell"># 检查DOCKER状态
+systemctl status docker
+
+# 启动docker
+systemctl start docker
+
+# 设置开机启动
+systemctl enable docker
+
+# 查看帮助
+docker --help
+
+# 查看 docker 镜像
+docker images
+
+# 容器列表 状态
+docker ps -a
+
+# 删除容器
+docker container rm xxx
+
+# 启动容器
+docker start [id]
+
+# 进入容器
+docker exec -it [id或者name]  /bin/bash
+</code></pre>
+<h2 id="运行postgresql"><a href="#运行postgresql" class="headerlink" title="运行postgresql"></a>运行postgresql</h2><h3 id="资料-1"><a href="#资料-1" class="headerlink" title="资料"></a>资料</h3><p>可参考：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/mingfan/p/12332506.html">docker安装的postgresql的基本使用 - 明矾 - 博客园 (cnblogs.com)</a><br><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/f246dc45e6dc">二. 连接PostgreSQL - 简书 (jianshu.com)</a></li>
+<li><a href="postgresql%E8%AF%AD%E6%B3%95.md">postgresql语法</a></li>
+</ul>
+<h3 id="docker常用基本命令"><a href="#docker常用基本命令" class="headerlink" title="docker常用基本命令"></a>docker常用基本命令</h3><pre><code class="shell"># 拉取镜像并运行
+# -d 后台运行 postgres:12：指定使用postgres:12作为镜像
+docker pull postgres:12
+docker run --name postgres12 -e POSTGRES_PASSWORD=123456 -p 5432:5432 -d postgres:12
+
+# 进入容器
+docker exec -it postgres12  /bin/bash
+
+# 进入容器后
+whereis psql
+
+# 连接数据库
+psql -U postgres
+
+psql -U username -h hostname -p port -d dbname 
+  -U username 用户名，默认值postgres
+  -h hostname 主机名，默认值localhost
+  -p port 端口号，默认值5432
+  -d dbname 要连接的数据库名，默认值postgres
+
+# 查看所有数据库
+\list
+select datname from pg_database;
+
+# 创建数据库
+create database TEST;
+
+# 版本
+ select version();
+</code></pre>
+<h3 id="postgresql语法"><a href="#postgresql语法" class="headerlink" title="postgresql语法"></a>postgresql语法</h3><pre><code class="sql"># 创建数据库
+create database xxx ;
+
+# 查看数据库
+\list
+
+# 数据库改名 
+alter database db1 rename to db2;
+
+# 删除数据库
+drop database xxx;
+
+# 进入数据库
+\c xxx
+
+# 查看表
+\d
+
+# 查看表结构
+\d xxx 
+
+# 创建表
+CREATE TABLE table_name(
+   column1 datatype,
+   column2 datatype,
+   column3 datatype,
+   .....
+   columnN datatype,
+   PRIMARY KEY( 一个或多个列 )
+);
+
+CREATE TABLE DEPARTMENT(
+   ID INT PRIMARY KEY      NOT NULL,
+   DEPT           CHAR(50) NOT NULL,
+   EMP_ID         INT      NOT NULL
+);
+
+# 删除表
+drop table xxx;
+
+# 表的修改
+# 修改表名
+alter table table_name rename to new_name ;
+# 修改列名
+ALTER TABLE table_name RENAME COLUMN old_name TO new_name;
+# 修改列数据结构
+ALTER TABLE table_name ALTER COLUMN column_name TYPE new_data_type;
+# 增加列
+ALTER TABLE table_name ADD COLUMN new_column_name data_type;
+# 删除列
+ALTER TABLE table_name DROP COLUMN column_name;
+
+
+# 查看当前数据库模式
+\dn
+
+# 创建模式(注意是在哪个数据库创建的)
+create schema xxx;
+
+# 删除模式
+drop schema xxx;
+# 查看指定模式下的表情况
+\d 模式名.*
+</code></pre>
+<p><strong>模式</strong><br>使用模式的优势：</p>
+<ul>
+<li>允许多个用户使用一个数据库并且不会互相干扰。</li>
+<li>将数据库对象组织成逻辑组以便更容易管理。</li>
+<li>第三方应用的对象可以放在独立的模式中，这样它们就不会与其他对象的名称发生冲突。<br>模式类似于操作系统层的目录，但是模式不能嵌套。</li>
+</ul>
+<h4 id="插入"><a href="#插入" class="headerlink" title="插入"></a>插入</h4><pre><code class="sql"># 表插入多行（注意逗号）
+INSERT INTO 表名 (列1, 列2, 列3, ...) VALUES  
+(值1, 值2, 值3, ...),  
+(值1, 值2, 值3, ...),  
+(值1, 值2, 值3, ...),  
+...
+</code></pre>
+<h4 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h4><pre><code class="sql">update [表名] 
+set column1 = value1, column2 = value2...., columnN = valueN
+where id=xxx
+</code></pre>
+<h4 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h4><pre><code class="sql">DELETE FROM table_name WHERE [condition];
+</code></pre>
+<h3 id="自测题"><a href="#自测题" class="headerlink" title="自测题"></a>自测题</h3><pre><code>1. 数据库的创建、修改和删除；表的创建、修改和删除；数据的插入、修改和删除
+2. 数据单表查询；多表查询；子查询；模糊匹配查询；查询运算（聚合、分组等）；窗口函数
+3. 常见索引（B-tree、Hash等）的特点；创建、修改和删除索引
+</code></pre>
+<p>窗口函数：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/92654574">通俗易懂的学会：SQL窗口函数 - 知乎 (zhihu.com)</a><br>数据：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_43513855/article/details/105294775">PostgreSQL练习_yws_2973199368的博客-CSDN博客</a></p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2023-04-01</span>
+            
+                <span>该篇文章被 Nikola</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E6%8A%80%E6%9C%AF/'>
+                            技术
+                        </a>
+                    
+                </span>
+             
+             
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2022-2099 China 
+
+            
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>用舍由时，行藏在我</span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+</html>

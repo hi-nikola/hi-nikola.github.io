@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="Pandas基础知识笔记" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="image/webp" href="/img/favicon.ico">
+    <title>Nikola的博客 | 用舍由时，行藏在我</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Nikola的博客" type="application/atom+xml">
+</head>
+    
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">Nikola的博客</a> 
+            <span class="description">用舍由时，行藏在我</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">首页</a></li>
+            
+        
+            
+                <li><a href="/list/">文章</a></li>
+            
+        
+            
+                <li><a target="_blank" rel="noopener" href="https://photo.hi-nikola.cn/">摄影</a></li>
+            
+        
+            
+                <li><a href="/about/">关于</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            Pandas基础知识笔记
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+            
+                <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E6%95%99%E7%A8%8B%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="post-toc-text">教程参考资料</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#numpy-pandas-%E7%AC%94%E8%AE%B0"><span class="post-toc-text">numpy pandas 笔记</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#numpy%E5%9F%BA%E7%A1%80"><span class="post-toc-text">numpy基础</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#numpy-%E5%88%9B%E5%BB%BA"><span class="post-toc-text">numpy 创建</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E6%95%B0%E7%BB%84%E7%9A%84%E5%8F%98%E5%BD%A2%E3%80%81%E8%BD%AC%E7%BD%AE"><span class="post-toc-text">数组的变形、转置</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E6%95%B0%E7%BB%84%E7%9A%84%E7%B4%A2%E5%BC%95%E5%92%8C%E5%88%87%E7%89%87"><span class="post-toc-text">数组的索引和切片</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95"><span class="post-toc-text">常用方法</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#pandas"><span class="post-toc-text">pandas</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#series-%E5%88%9B%E5%BB%BA"><span class="post-toc-text">series 创建</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Series-%E5%B1%9E%E6%80%A7"><span class="post-toc-text">Series 属性</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Series-%E6%96%B9%E6%B3%95"><span class="post-toc-text">Series 方法</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Series-%E7%B4%A2%E5%BC%95"><span class="post-toc-text">Series 索引</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#dataframe-%E5%88%9B%E5%BB%BA"><span class="post-toc-text">dataframe 创建</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#dataframe-%E5%B1%9E%E6%80%A7"><span class="post-toc-text">dataframe 属性</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#dataframe-%E6%96%B9%E6%B3%95"><span class="post-toc-text">dataframe 方法</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#dataframe-%E8%AF%BB%E5%8F%96%E8%A1%8C%E5%88%97"><span class="post-toc-text">dataframe 读取行列</span></a></li></ol></li></ol></li></ol>
+            
+        
+        <p>工作中会用到阿里云的pyodps，经常调用pandas的API，于是整理了这篇教程。我觉得pandas理清三个概念就够了——属性、方法、索引，记住常用的语句，其他的都可以现用现查。写pandas的时候思路可以按照写SQL的思路来，这样脑子才不会乱，即能够使用pandas实现：表的创建删除、增、删、改、查、分组、排序、表关联。</p>
+<p><strong>最后，在文中附上非常全的pandas文档、教程、数据分析项目链接，真的百分百够用了。</strong></p>
+<span id="more"></span>
+
+<h2 id="教程参考资料"><a href="#教程参考资料" class="headerlink" title="教程参考资料"></a>教程参考资料</h2><blockquote>
+<p><strong>datawhale</strong> ：<br>仓库：<a target="_blank" rel="noopener" href="https://github.com/datawhalechina">https://github.com/datawhalechina</a><br>pandas：<a target="_blank" rel="noopener" href="http://joyfulpandas.datawhale.club/Content/index.html">http://joyfulpandas.datawhale.club/Content/index.html</a><br>numpy：<a target="_blank" rel="noopener" href="https://github.com/datawhalechina/powerful-numpy">https://github.com/datawhalechina/powerful-numpy</a><br>matplotlib：<a target="_blank" rel="noopener" href="https://datawhalechina.github.io/fantastic-matplotlib/">https://datawhalechina.github.io/fantastic-matplotlib/</a></p>
+<p><strong>pandas官网</strong>：<br>教程：<a target="_blank" rel="noopener" href="https://pandas.pydata.org/docs/index.html">https://pandas.pydata.org/docs/index.html</a></p>
+<p><strong>数据分析项目</strong>：<br><a target="_blank" rel="noopener" href="https://www.heywhale.com/home">https://www.heywhale.com/home</a></p>
+</blockquote>
+<ul>
+<li>如果你之前学习过机器学习，肯定会知道西瓜书，和西瓜书配套的教程是南瓜书，这本书就是datawhale开源的。他们的数据分析（pandas、numpy、matplotlib）教程写的也是非常棒。</li>
+</ul>
+<p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202306102228348.png"></p>
+<ul>
+<li>pandas的官网教程写的也是非常详细，主要是三部分：getting start、user guide、api reference，熟悉了之后工作中用到什么就直接查api，非常方便，官方给了详细的示例。</li>
+</ul>
+<p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202306102225450.png" alt="img"></p>
+<ul>
+<li>如果实际工作中如果没有项目用到pandas，可以在heywhale社区中找到许多项目供自己练习，并且也可以参考他人写的代码。</li>
+</ul>
+<p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202306102242670.png"></p>
+<p>学完基础知识之后，可以试试<strong>kaggle</strong>的24道练习题测试以下自己是否掌握：</p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.kaggle.com/code/icarofreire/pandas-24-useful-exercises-with-solutions/notebook">Pandas 24 useful exercises with solutions | Kaggle
+</a></p>
+<ol>
+<li>How to create a series from a list, numpy array and dict?</li>
+<li>How to combine many series to form a dataframe?</li>
+<li>How to get the items of series A not present in series B?</li>
+<li>How to get the items not common to both series A and series B?</li>
+<li>How to get useful infos</li>
+<li>How to get frequency counts of unique items of a series?</li>
+<li>How to convert a numpy array to a dataframe of given shape? (L1)</li>
+<li>How to find the positions of numbers that are multiples of 3 from a series?</li>
+<li>How to extract items at given positions from a series?</li>
+<li>How to stack two series vertically and horizontally ?</li>
+<li>How to get the positions of items of series A in another series B?</li>
+<li>How to compute difference of differences between consequtive numbers of a series?</li>
+<li>How to convert a series of date-strings to a timeseries?</li>
+<li>How to filter words that contain atleast 2 vowels from a series?</li>
+<li>How to replace missing spaces in a string with the least frequent character?</li>
+<li>How to change column values when importing csv to a dataframe?</li>
+<li>How to import only specified columns from a csv file?</li>
+<li>How to check if a dataframe has any missing values?</li>
+<li>How to replace missing values of multiple numeric columns with the mean?</li>
+<li>How to change the order of columns of a dataframe?</li>
+<li>How to filter every nth row in a dataframe?</li>
+<li>How to get the last n rows of a dataframe with row sum &gt; 100?</li>
+<li>How to find and cap outliers from a series or dataframe column?</li>
+<li>How to reverse the rows of a dataframe?</li>
+</ol>
+</blockquote>
+<h2 id="numpy-pandas-笔记"><a href="#numpy-pandas-笔记" class="headerlink" title="numpy pandas 笔记"></a>numpy pandas 笔记</h2><p>笔记代码地址：<a target="_blank" rel="noopener" href="https://gitee.com/hi-nikola/pandas-fundamentals-notes">pandas基础知识笔记-Nikola (gitee.com)</a></p>
+<h3 id="numpy基础"><a href="#numpy基础" class="headerlink" title="numpy基础"></a>numpy基础</h3><p>数组有一维数组和多维数组，重点需要掌握数组的创建、数组的索引切片。</p>
+<h4 id="numpy-创建"><a href="#numpy-创建" class="headerlink" title="numpy 创建"></a>numpy 创建</h4><p>形成的是一个numpy.ndarray对象。其实就是里面是一个列表或者列表里面包含列表。</p>
+<ol>
+<li>直接列表构造</li>
+<li>等差构造</li>
+<li>随机构造</li>
+<li>特殊数组</li>
+</ol>
+<pre><code class="python"># array 直接构造
+np.array([&#39;a&#39;,&#39;b&#39;,1,2]) # 一维
+np.array([[1,2,3],[4,5,6]]) # 多维
+
+# 等差构造 np.arange 
+np.arange(1,10,3)
+
+# 随机构造
+np.random.randint(1,10,3) 
+
+# 特殊数组
+np.zeros((3,4))
+</code></pre>
+<h4 id="数组的变形、转置"><a href="#数组的变形、转置" class="headerlink" title="数组的变形、转置"></a>数组的变形、转置</h4><ol>
+<li>转置</li>
+<li>变形 reshape shape 两种方式</li>
+</ol>
+<pre><code class="python"># 转置
+np.zeros((3,4)).T
+
+# 变形
+# 方式一：
+np.zeros((3,4)).reshape(2,6)
+# 方式二 ：
+n =np.zeros((3,4))
+n.shape= (6,2)
+</code></pre>
+<h4 id="数组的索引和切片"><a href="#数组的索引和切片" class="headerlink" title="数组的索引和切片"></a>数组的索引和切片</h4><p>切片，左闭右开 [start:stop:step]</p>
+<ol>
+<li>一维数组</li>
+<li>二维数组</li>
+<li>利用数组索引数组</li>
+</ol>
+<pre><code class="python"># 一维
+n = np.arange(13,1,-1)
+n[2]
+n[-2]
+n[1:3]
+n[:4]
+n[:4:2]
+n[1:5:2]
+
+# 二维
+# n.reshape(3,4)
+n.shape = (4,3)
+n[2] # 只取到了第一层
+n[1:3:2]  # 步长为2
+n[-1]
+n[1,1] # 取到了第二层
+
+# 利用数组索引数组
+n1 = np.array([2,1]) # 取出索引为2,1的值
+n[n1]
+</code></pre>
+<h4 id="常用方法"><a href="#常用方法" class="headerlink" title="常用方法"></a>常用方法</h4><ol>
+<li>where # 指定满足条件与不满足条件位置对应的填充值</li>
+<li>any all  # any存在一个 True 或非零元素时返回 True ；all 当所有为True时返回 True</li>
+<li>diff # 和前一个元素作差</li>
+<li>创建空值 # np.nan</li>
+<li>判断空值 # np.isnan()</li>
+<li>统计函数 max min mean  # 很多  只列出这几个</li>
+</ol>
+<pre><code class="python"># where
+n = np.array([-1,-3,-5,0,1,6,9])
+np.where(n&gt;0,n,-666) # n中的值大于0时，等于它本身，否则为填充值
+
+# any all
+n = np.array([-1,2,0]) # 存在一个0元素
+n.any()  # np.any(n) 两种写法都可以
+
+# diff
+n = np.arange(1,15,3)
+np.diff(n)
+
+# 统计函数 max min
+n= np.array([0,3,7]) # 无空值时
+n.max()
+
+n= np.array([0,3,7,np.nan]) # np.nan 创建空值
+np.isnan(n)  # 判断空值
+n.max() # 无法判断最大
+np.nanmax(n) # 要使用nan**函数
+
+
+</code></pre>
+<h3 id="pandas"><a href="#pandas" class="headerlink" title="pandas"></a>pandas</h3><p>pandas 两种基本的数据结构：series 、 dataframe</p>
+<h4 id="series-创建"><a href="#series-创建" class="headerlink" title="series 创建"></a>series 创建</h4><ol>
+<li>字典</li>
+<li>列表</li>
+<li>字典＋列表</li>
+<li>numpy 数组</li>
+</ol>
+<pre><code class="python"># 字典
+dict = &#123;&quot;a&quot;:1,&quot;b&quot;:2,&quot;c&quot;:3&#125; 
+pd.Series(dict)
+
+# 列表
+list = [1,2,3,&quot;a&quot;]
+pd.Series(list)
+
+# 列表+字典
+dl = &#123;&quot;a&quot;:[0,1,2],&quot;c&quot;:[&quot;f&quot;,4]&#125; 
+pd.Series(dl)
+
+# numpy 数组
+n = np.arange(1,10,2)
+pd.Series(n)
+</code></pre>
+<h4 id="Series-属性"><a href="#Series-属性" class="headerlink" title="Series 属性"></a>Series 属性</h4><ol>
+<li>shape</li>
+<li>size</li>
+<li>index</li>
+<li>values</li>
+<li>dtype</li>
+</ol>
+<pre><code class="python">n = np.random.randint(1,100,10)
+s = pd.Series(n)
+
+s.shape 
+s.size
+s.index
+s.values
+type(s.values) # numpy.ndarray
+s.dtype
+</code></pre>
+<h4 id="Series-方法"><a href="#Series-方法" class="headerlink" title="Series 方法"></a>Series 方法</h4><ol>
+<li>s.head()</li>
+<li>s.tail()</li>
+<li>s.info()</li>
+<li>s.append() # 括号里是series df &#x3D; pd.concat([s1,s2],ignore_index&#x3D;True)</li>
+<li>s.drop() # 删</li>
+<li>s[?] &#x3D; ?  # 改</li>
+<li>s.sort_values() # 排序</li>
+<li>s.groupby() # 分组</li>
+<li>s.to_list() # 转化成列表</li>
+<li>s.isnull() # numpy 中只能用np.isnan() ， pandas中两者都可以用</li>
+<li>series.value_counts() # 每个元素个数</li>
+<li>series.count() # 元素个数总和</li>
+<li>series.unique() # 去重后的元素</li>
+<li>series.nunique() # 去重后的元素个数总和 。注意和 count()方法区别</li>
+<li>series.isin([xx,xx])</li>
+</ol>
+<pre><code class="python">s.head()
+s.tail()
+s.info()
+# 增 append . 添加的必须是series
+s1 = pd.Series(np.array([1,2]))
+# s.append(s1,ignore_index=True) # 索引ignore
+pd.concat([s,s1],ignore_index = True)
+# 删
+series = pd.Series([1, 6, 6 ,3, 4, 5])
+series.drop(2) # 删除的是对应的索引
+series.drop([1,2])
+# 改
+series[4] = 666
+series
+# 排序
+series.sort_values(ascending= False)
+# 分组 
+# groupby()
+# 转列表
+series.to_list()
+# 判断空值
+series.isnull() # 注意区分numpy的np.isnan() 
+series.isna()
+series.value_counts() # 每个元素个数
+series.count() # 元素个数总和
+series.unique() # 去重后的元素
+series.nunique() # 去重后的元素个数总和 。注意和 count()方法区别
+series.isin([1,6]) # 判断 某某值 是否在其中
+</code></pre>
+<h4 id="Series-索引"><a href="#Series-索引" class="headerlink" title="Series 索引"></a>Series 索引</h4><ol>
+<li>显式索引</li>
+<li>隐式索引</li>
+</ol>
+<p>看得到的叫做显式索引。</p>
+<p>注意：显式索引左闭右闭，隐式索引左闭右开</p>
+<pre><code class="python">s = pd.Series(np.arange(2,11,3),index=[&quot;x&quot;,&quot;y&quot;,&quot;z&quot;])
+
+s[&quot;x&quot;] # 显式索引
+s[0] # 隐式索引
+</code></pre>
+<h4 id="dataframe-创建"><a href="#dataframe-创建" class="headerlink" title="dataframe 创建"></a>dataframe 创建</h4><p>dataframe 是由series 组成，因此同创建series的方式相同</p>
+<ol>
+<li>字典+列表创建</li>
+<li>numpy 创建</li>
+<li>字典+numpy</li>
+</ol>
+<pre><code class="python"> # 字典创建
+list1 = &quot;hello the cruel world&quot;.split() # 列表
+list2 = [100,200,300,400]
+dict = &#123;&quot;word&quot;: list1,&quot;num&quot;:list2&#125; # 注意 ：必须是列表！！！
+df = pd.DataFrame(dict)
+
+# numpy 创建1
+np1 = np.arange(1,12)
+np2 = np.arange(12,23)
+data = [np1,np2]
+df = pd.DataFrame(data)
+
+# numpy 创建2
+n = np.arange(1,13).reshape(3,4)
+df = pd.DataFrame(data=n,columns=[f&quot;u&#123;i&#125;&quot; for i in range(1,5)],index=[&#39;index1&#39;,&#39;index2&#39;,&#39;index3&#39;])
+
+# 字典＋numpy(series)
+data =&#123;&quot;a&quot;:np.arange(1,5),&quot;b&quot;:np.arange(6,10)&#125;
+df = pd.DataFrame(data)
+</code></pre>
+<h4 id="dataframe-属性"><a href="#dataframe-属性" class="headerlink" title="dataframe 属性"></a>dataframe 属性</h4><ol>
+<li>df.shape</li>
+<li>df.size</li>
+<li>df.columns</li>
+<li>df.index</li>
+<li>df.values</li>
+<li>df.dtypes</li>
+</ol>
+<pre><code class="python">df = pd.DataFrame(data=np.arange(2,14).reshape(3,4),columns=[&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;],index=[&quot;x&quot;,&quot;y&quot;,&quot;z&quot;])
+
+df.shape # (3,4)
+df.size # 12 
+df.columns  # Index([&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;], dtype=&#39;object&#39;)
+df.index # Index([&#39;x&#39;, &#39;y&#39;, &#39;z&#39;], dtype=&#39;object&#39;)
+df.values # 数组
+df.dtypes
+</code></pre>
+<h4 id="dataframe-方法"><a href="#dataframe-方法" class="headerlink" title="dataframe 方法"></a>dataframe 方法</h4><ol>
+<li>df.head()</li>
+<li>df.tail()</li>
+<li>df.info()</li>
+<li>df.isin([x,x]) # 是否</li>
+<li>df.isnull()</li>
+<li>df.apend() # 增 类比成字典</li>
+<li>df.drop() # 删  在drop系列  axis &#x3D; 1 列。</li>
+<li>df[“xx”].unique()</li>
+<li>df[“xx”].nunqiue()</li>
+<li>df[“xx”].value_counts()</li>
+</ol>
+<pre><code class="python">df.head()
+df.tail()
+df.info()
+
+df.isin([5,6])
+df.isnull()
+
+# 增 append
+s = pd.Series([55,44,11,22],index= [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;],name = &quot;vv&quot; )  # s.name = &quot;v&quot;
+df = df.append(s) # 这里如果不忽视索引的话 就需要给一个name给series 
+
+# dataframe 和 dataframe concat
+df1 = pd.DataFrame(&#123;&quot;a&quot;:[22],&quot;b&quot;:[33],&quot;c&quot;:[44],&quot;d&quot;:[55]&#125;,index= [&#39;vvv&#39;])  # 注意 这里是dataframe 对应的是index。
+pd.concat([df,df1])
+
+s1 = pd.Series([111,222,333,444] )
+s1.index = [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;] # 这里需要设置series 的索引
+df2 =  pd.concat([df,s1.to_frame().T]) #  s1.to_frame().T 这里需要将series转成dataframe再转置 
+
+# 增 增加一列
+df2[&#39;e&#39;] = range(5) 
+
+# 删 
+df2.drop(&quot;e&quot;,axis=1,inplace= True)
+</code></pre>
+<h4 id="dataframe-读取行列"><a href="#dataframe-读取行列" class="headerlink" title="dataframe 读取行列"></a>dataframe 读取行列</h4><p>1.查看列：</p>
+<pre><code>df[&quot;col1&quot;] # series
+
+df[[&quot;col1]] # dataframe
+
+df[[&quot;col1&quot;,&quot;col2&quot;]] # 注意双括号
+</code></pre>
+<ol start="2">
+<li><p>查看行：</p>
+<p>loc 显式索引 左闭右闭</p>
+<p>iloc 隐式索引 左闭右开</p>
+</li>
+</ol>
+<pre><code class="python"> 查看列
+df2[&quot;a&quot;]
+df[[&quot;a&quot;]]
+
+# 通过布尔值取值
+df[df[&quot;a&quot;]&lt;df[&quot;a&quot;].mean()] # 取所有true 
+
+# 查看行
+df.iloc[1] # 隐式
+df.loc[&quot;y&quot;] # 显式
+
+# 同时取行和列 
+df.iloc[1,2] # 行 列 
+df.loc[&quot;y&quot;,&quot;c&quot;] # 行列
+df.loc[&quot;y&quot;,:] # 行 所有列
+df.loc[&quot;y&quot;,[&quot;a&quot;,&quot;b&quot;]]  # 行 指定列
+df.iloc[[0,1]] # 注意双括号
+df.loc[[&quot;x&quot;,&quot;y&quot;]]
+df.iloc[0:2]
+df.loc[&quot;x&quot;:&quot;z&quot;]
+</code></pre>
+<hr>
+<p>后面希望能有时间加上数据清洗的常用代码以及可视化的内容。</p>
+<p>(PS:写教程太累了 看起来简单 实际上 自己写代码测试 、写知识点需要花费很长的时间 ，这次写教程我也发现最好的参考资料还得是官方文档，虽然是英文的，实际上文档非常易读。 )</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2023-06-10</span>
+            
+                <span>该篇文章被 Nikola</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E6%8A%80%E6%9C%AF/'>
+                            技术
+                        </a>
+                    
+                </span>
+             
+             
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2022-2099 China 
+
+            
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>用舍由时，行藏在我</span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+</html>
