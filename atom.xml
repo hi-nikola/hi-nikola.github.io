@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nikola的博客</title>
+  
+  <subtitle>用舍由时，行藏在我</subtitle>
+  <link href="http://hi-nikola.cn/atom.xml" rel="self"/>
+  
+  <link href="http://hi-nikola.cn/"/>
+  <updated>2026-06-12T09:27:56.547Z</updated>
+  <id>http://hi-nikola.cn/</id>
+  
+  <author>
+    <name>Nikola</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据观察日报 · 2026-06-12</title>
+    <link href="http://hi-nikola.cn/2026/06/12/daily-observer/2026-06-12/"/>
+    <id>http://hi-nikola.cn/2026/06/12/daily-observer/2026-06-12/</id>
+    <published>2026-06-12T09:00:00.000Z</published>
+    <updated>2026-06-12T09:27:56.547Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="🎯-今日要点"><a href="#🎯-今日要点" class="headerlink" title="🎯 今日要点"></a>🎯 今日要点</h2><ol><li>OpenAI 秘密递交 S-1 启动 IPO，与 Anthropic、SpaceX 三家估值逼近 4 万亿美元</li><li>江苏公布 147 个高质量数据集建设试点，18 部门联动喂养”数据飞轮”</li><li>老刘谈 AI 时代最重要的能力：别问 AI 做不了啥，要问什么值得人去做</li><li>麦肯锡 PPT 使用率几个月内大降，交付物从”报告”转向”可运行的决策系统”</li></ol><h2 id="📋-详细内容"><a href="#📋-详细内容" class="headerlink" title="📋 详细内容"></a>📋 详细内容</h2><h3 id="1-OpenAI-秘密提交-IPO：三巨头同窗口冲刺，估值逼近-4-万亿美元"><a href="#1-OpenAI-秘密提交-IPO：三巨头同窗口冲刺，估值逼近-4-万亿美元" class="headerlink" title="1. OpenAI 秘密提交 IPO：三巨头同窗口冲刺，估值逼近 4 万亿美元"></a>1. OpenAI 秘密提交 IPO：三巨头同窗口冲刺，估值逼近 4 万亿美元</h3><p><strong>原文</strong>：6 月 9 日凌晨，OpenAI 向 SEC 秘密递交 S-1 草案，并直言”预计会泄露，干脆直接公布”，据称正与高盛、摩根士丹利合作，最早今年秋季上市。一周前 Anthropic 完成同样动作，SpaceX 已启动路演、估值约 1.75 万亿美元。三家加起来估值逼近 4 万亿美元，但都尚未证明能把 AI 烧出的增长变成稳定利润。私人市场上 Anthropic 估值已摸到 1 万亿，反超 OpenAI 的 8800 亿。递交文件同日，奥尔特曼发长文称公司进入”第三阶段”，使命是确保 AI”造福全人类”。（<a href="https://mp.weixin.qq.com/s?__biz=MzIyMzk1MDE3Nw==&mid=2247677676&idx=4&sn=39adb9aab6a3568ccd48148e5bff048f&chksm=e990dd239f6890a3baf237588e37c4213dad5962ee1c5db29d3587120e2d0623df5f7da9b341&mpshare=1&scene=1&srcid=0612mLpB0xRtKo9i66GHPpef&sharer_shareinfo=1e36b4b1e44fb101f38a210f712bd253&sharer_shareinfo_first=1e36b4b1e44fb101f38a210f712bd253#rd">图灵人工智能</a>）</p><h3 id="2-江苏公布高质量数据集试点名单：147-个项目、18-部门联动"><a href="#2-江苏公布高质量数据集试点名单：147-个项目、18-部门联动" class="headerlink" title="2. 江苏公布高质量数据集试点名单：147 个项目、18 部门联动"></a>2. 江苏公布高质量数据集试点名单：147 个项目、18 部门联动</h3><p><strong>原文</strong>：江苏省数据局确定了 147 个高质量数据集建设先行先试试点项目，依据省政府《江苏省”人工智能+”行动方案》组织推进。省数据局、教育厅、工信厅、自然资源厅、生态环境厅等 18 个部门参与。后续将搭建”互学互鉴平台”组织经验分享，培育数据流通产品并在省数据交易所挂牌上架，加强宣传形成”可复制、可推广”的经验做法，目标是通过”数据赋能人工智能”实现”数据飞轮”效应。</p><h3 id="3-AI-时代重要的能力：不是”AI-做不了什么”，而是”什么值得人去做”"><a href="#3-AI-时代重要的能力：不是”AI-做不了什么”，而是”什么值得人去做”" class="headerlink" title="3. AI 时代重要的能力：不是”AI 做不了什么”，而是”什么值得人去做”"></a>3. AI 时代重要的能力：不是”AI 做不了什么”，而是”什么值得人去做”</h3><p><strong>原文</strong>：老刘从自己用 GPT3.5、Claude Code 的亲身经历出发，反思”AI 时代人最重要的能力”。他认为把人的价值建立在 AI 短板上是被动活法，应换个角度问”什么值得人去做”。他列出五项真正值得培养的能力：洞察力&#x2F;提出问题的能力、品味与审美、承担责任的能力、与人建立真实联结的能力、在不确定中下注的行动力。并指出 AI 正系统性吃掉细分领域的极致，反而”什么都懂一点、有世界观、有审美、心理稳定”的通才型完整人格会越来越稀缺。（<a href="http://mp.weixin.qq.com/s?__biz=MzU3MDY0NDY4NA==&mid=2247485995&idx=1&sn=cb657e361557864ddef50b9f6b64e957&chksm=fd26c37992ccf5122a523f15129af80ae009bdaf650d3ec4030cdc859e133e19e31ee6272d87&scene=126&sessionid=1781250014#rd">Nikola数说未来</a>）</p><p>💬 <strong>老刘评</strong>：很多关于【AI 时代人最重要的能力】的讨论，本质上是在问”AI 还不能做什么，那就是人的价值”。这个问法我觉得是错的——它把人的价值建立在 AI 的短板上，那 AI 每进步一次，人的价值就缩水一次，这是一种很被动的活法。我更愿意换个角度：不是”AI 做不了什么”，而是”什么东西值得人去做”。这两个问题的答案不一样。</p><h3 id="4-麦肯锡正在”淘汰”PPT：交付物从报告变成可运行的决策系统"><a href="#4-麦肯锡正在”淘汰”PPT：交付物从报告变成可运行的决策系统" class="headerlink" title="4. 麦肯锡正在”淘汰”PPT：交付物从报告变成可运行的决策系统"></a>4. 麦肯锡正在”淘汰”PPT：交付物从报告变成可运行的决策系统</h3><p><strong>原文</strong>：《Business Insider》报道，麦肯锡全球科技与 AI 负责人凯特·斯马杰称，随着员工用 AI 工具做”氛围编码”（vibe-coding），PowerPoint 的使用量在几个月内大幅下降。项目经理 Généreux 为一个约 70 人的北美有线电视项目搭建了 AI 辅助的”客户可视化中心”网站，取代版本混乱、难检索的 PPT，团队维护含几十个 HTML 文件的代码库，自动打包成交互式网页并每周生成音频摘要。文章指出 PPT 不会消失但角色变了——从”信息中枢”退为”最终输出格式”，AI 时代咨询公司竞争的将是构建”企业决策系统”的能力。（<a href="https://mp.weixin.qq.com/s?__biz=MzU5ODI5MDE3NA==&mid=2247571623&idx=1&sn=57c6afd57ad6cbb44daa1422f55fc084&chksm=ff895878b0378b34864919b6c28bb1a41c6d001090b472f5c2fd3a9f3b6955dc658d1751d1c7&mpshare=1&scene=1&srcid=0612LzgHMQ54Ps754efDIRSU&sharer_shareinfo=14ae91e9a64dd737c5b7d4138d001873&sharer_shareinfo_first=14ae91e9a64dd737c5b7d4138d001873#rd">CMKT咨询圈</a>）</p><hr><p>今天四条连成一条主线：AI 正在重塑价值的分配方式。资本市场（OpenAI 三巨头 IPO）、政府（江苏数据集试点）、咨询行业（麦肯锡弃 PPT）都在围着 AI 重新排兵布阵，而老刘那篇恰好把视角拉回到”人”——当生成的边际成本趋近于零，筛选、判断和承担责任的能力反而越来越值钱。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;🎯-今日要点&quot;&gt;&lt;a href=&quot;#🎯-今日要点&quot; class=&quot;headerlink&quot; title=&quot;🎯 今日要点&quot;&gt;&lt;/a&gt;🎯 今日要点&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;OpenAI 秘密递交 S-1 启动 IPO，与 Anthropic、SpaceX 三家</summary>
+      
+    
+    
+    
+    <category term="数据观察日报" scheme="http://hi-nikola.cn/categories/%E6%95%B0%E6%8D%AE%E8%A7%82%E5%AF%9F%E6%97%A5%E6%8A%A5/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据观察日报 · 2026-06-11</title>
+    <link href="http://hi-nikola.cn/2026/06/11/daily-observer/2026-06-11/"/>
+    <id>http://hi-nikola.cn/2026/06/11/daily-observer/2026-06-11/</id>
+    <published>2026-06-11T09:00:00.000Z</published>
+    <updated>2026-06-12T09:27:56.547Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="🎯-今日要点"><a href="#🎯-今日要点" class="headerlink" title="🎯 今日要点"></a>🎯 今日要点</h2><ol><li>Anthropic 用 Claude 做自助分析，业务查询 95% 自动完成、准确率约 95%</li><li>国家数据局发布二手车数据全链路可信流通案例，柠檬查平台累计查询超 1500 万台次</li><li>中国信通院罗欧等撰文：以数智化转型成熟度标准为企业转型立”罗盘”与”标尺”</li></ol><h2 id="📋-详细内容"><a href="#📋-详细内容" class="headerlink" title="📋 详细内容"></a>📋 详细内容</h2><h3 id="1-AI-能写报表-SQL-吗：Anthropic-把分析准确率从-21-拉到-95-，靠的是数据治理不是换模型"><a href="#1-AI-能写报表-SQL-吗：Anthropic-把分析准确率从-21-拉到-95-，靠的是数据治理不是换模型" class="headerlink" title="1. AI 能写报表 SQL 吗：Anthropic 把分析准确率从 21% 拉到 95%，靠的是数据治理不是换模型"></a>1. AI 能写报表 SQL 吗：Anthropic 把分析准确率从 21% 拉到 95%，靠的是数据治理不是换模型</h3><p><strong>原文</strong>：文章由一个帖子引出——有人接手医院 HIS 系统、面对几百行存储过程，问 AI 能不能写报表 SQL。作者结合 Anthropic 官方博客《How Anthropic enables self-service data analytics with Claude》指出：现在 SQL 生成早已不是瓶颈，语法正确率接近 100%。真正的瓶颈是”上下文与校验”——能否把自然语言问题准确映射到唯一正确、状态最新的数据实体上。错误答案归为三类：概念到实体的歧义、数据时效性衰减（离线准确率一个月内从 95% 滑到 65%）、检索失败。Anthropic 用四层技术栈对治这些失败模式，使裸跑状态下不到 21% 的准确率补齐治理后窜到 95% 以上。（<a href="https://mp.weixin.qq.com/s?__biz=MzU3MDY0NDY4NA==&mid=2247486043&idx=1&sn=ecf3fb026f78ae36d4fd533987549f37&chksm=fdde5837bb140825051196739efd91eda768bd5e58588f48cd1a9cd0a1d03e5bfd9bb217e4b8&mpshare=1&scene=1&srcid=0611JqFzLnve8hZbz626kQrK&sharer_shareinfo=a7ae16a567a5ef27c4ebde4e0059b3cb&sharer_shareinfo_first=5ab91a79fb796493e538b63f67985067#rd">Nikola数说未来</a>）</p><p>💬 <strong>老刘评</strong>：花了不少时间敲字，有点费腰😂</p><h3 id="2-二手车数据全链路可信流通案例：可用不可见，累计查询超-1500-万台次"><a href="#2-二手车数据全链路可信流通案例：可用不可见，累计查询超-1500-万台次" class="headerlink" title="2. 二手车数据全链路可信流通案例：可用不可见，累计查询超 1500 万台次"></a>2. 二手车数据全链路可信流通案例：可用不可见，累计查询超 1500 万台次</h3><p><strong>原文</strong>：国家数据局发布第三批数据流通安全治理典型案例，收录中汽数源信息科技（北京）有限公司的”基于二手车交易场景的数据全链路流通可信技术应用案例”。在二手车交易中，汽车数据跨主体流通存在权责边界不清、泄露风险高等难题。中汽数源依托可信数据空间，搭建柠檬查平台，由金融机构、主机厂等作为数据提供方，车主授权后使用方提交加密请求获取车况综合报告，实现”数据可用不可见”。通过明权责定标准、安全多方计算全路径防护、协同应急机制三方面治理，截至 2025 年底累计查询量超 1500 万台次，覆盖全国 31 个省及 100 余个品牌。（<a href="https://mp.weixin.qq.com/s?__biz=MzkzMTU5MDA3OQ==&mid=2247506121&idx=1&sn=7c860388f6f762de3706961ca8ae5350&chksm=c3bf5bda8c00a1b4572870103b04f86eaf5400c5697708c686efed42ae9a54d17ce5c0bc828c&mpshare=1&scene=1&srcid=06114vI3a3JkgUb45VxVY9cf&sharer_shareinfo=778ecc5964cb8a548e4d4216907db429&sharer_shareinfo_first=778ecc5964cb8a548e4d4216907db429#rd">国家数据局</a>）</p><h3 id="3-信通院谈数智化转型成熟度：用标准为企业转型立”罗盘”与”标尺”"><a href="#3-信通院谈数智化转型成熟度：用标准为企业转型立”罗盘”与”标尺”" class="headerlink" title="3. 信通院谈数智化转型成熟度：用标准为企业转型立”罗盘”与”标尺”"></a>3. 信通院谈数智化转型成熟度：用标准为企业转型立”罗盘”与”标尺”</h3><p><strong>原文</strong>：中国信通院罗欧、董恩然等撰文指出，企业数智化转型已从”技术全面落地”迈向”智能深化应用”阶段，可信的成熟度标准成为锚定方向、诊断短板、规划路径的核心工具。文章梳理政策与场景双轮驱动格局：政策端从《”人工智能+”行动意见》到”十五五”规划纲要、”模数共振”行动持续引领；场景端企业转型经历技术底座、业务融合、智能化深化三阶段。能力建设强调构建”战略与组织+架构与流程+经营与管理+数据与智能+技术与基础+安全与责任”多位一体体系，以数据治理为基础、人工智能为引擎、组织变革为保障。（<a href="https://mp.weixin.qq.com/s?__biz=MjM5MzU0NjMwNQ==&mid=2650869305&idx=1&sn=62bcc6c74f1d9240415d87261db7327e&chksm=bce7312aec3ac75f2ad6515c40ebcb5adcd7dc59fd588c192b4982102de5ea2508c25a111151&mpshare=1&scene=1&srcid=0611gqWoQz9lX1tabSGtua8W&sharer_shareinfo=56918dd7578bcb290f8abdf42da4af91&sharer_shareinfo_first=56918dd7578bcb290f8abdf42da4af91#rd">中国信通院CAICT</a>）</p><hr><p>今天三条主线高度一致：AI 时代，数据治理才是分析能力的真正天花板。Anthropic 的 21%→95% 是微观印证，二手车可信流通是行业级落地，信通院成熟度标准则是方法论锚点——从下往上、让人看得见回报的数据治理，正在成为新共识。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;🎯-今日要点&quot;&gt;&lt;a href=&quot;#🎯-今日要点&quot; class=&quot;headerlink&quot; title=&quot;🎯 今日要点&quot;&gt;&lt;/a&gt;🎯 今日要点&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Anthropic 用 Claude 做自助分析，业务查询 95% 自动完成、准确率约 </summary>
+      
+    
+    
+    
+    <category term="数据观察日报" scheme="http://hi-nikola.cn/categories/%E6%95%B0%E6%8D%AE%E8%A7%82%E5%AF%9F%E6%97%A5%E6%8A%A5/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据观察日报 · 2026-06-10</title>
+    <link href="http://hi-nikola.cn/2026/06/10/daily-observer/2026-06-10/"/>
+    <id>http://hi-nikola.cn/2026/06/10/daily-observer/2026-06-10/</id>
+    <published>2026-06-10T09:00:00.000Z</published>
+    <updated>2026-06-12T09:27:56.547Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="🎯-今日要点"><a href="#🎯-今日要点" class="headerlink" title="🎯 今日要点"></a>🎯 今日要点</h2><ol><li>Claude Fable 5 正式发布，全维度跑分 SOTA，6&#x2F;22 前订阅免费、之后转 API 计费</li><li>苏州国资押注联讯仪器斩获 125 倍回报，AI 算力光模块产业链再封神</li><li>一篇 AI 开源入门科普，面向新手做开源知识点扫盲</li></ol><h2 id="📋-详细内容"><a href="#📋-详细内容" class="headerlink" title="📋 详细内容"></a>📋 详细内容</h2><h3 id="1-Claude-Fable-5-发布：全面-SOTA-的”究极水桶”，但又贵又慢"><a href="#1-Claude-Fable-5-发布：全面-SOTA-的”究极水桶”，但又贵又慢" class="headerlink" title="1. Claude Fable 5 发布：全面 SOTA 的”究极水桶”，但又贵又慢"></a>1. Claude Fable 5 发布：全面 SOTA 的”究极水桶”，但又贵又慢</h3><p><strong>原文</strong>：Anthropic 今天正式发布 Claude Fable 5，与同步升级的 Mythos 5 为同一底层模型，区别仅在 Fable 5 多加了一层安全分类器。该模型源自今年 4 月只对少数网络安全机构开放的 Mythos Preview。Fable 5 已在 Claude 与 Claude Code 上线，6&#x2F;10 起到 6&#x2F;22 免费包含在 Pro、Max、Team 及企业版中，6&#x2F;23 起将从订阅方案移除、只能通过 API 接额度使用。价格为每百万输入 token 10 美元、输出 50 美元。作者实测在所有维度全面碾压、三方基准清一色 SOTA，但体感”又贵又慢”——200 刀的 Max 会员只跑 3 个任务（其中一个还没跑完）就用掉了 5 小时额度的 73%。（<a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683485&idx=1&sn=310421ab80ddac4996667c546b6c3e02&chksm=f1a00255e86cbf65b14a5aaedacbf12b4c9d9586995e34981e1b69a35f9587e1ed74ff8f931b&mpshare=1&scene=1&srcid=06100LQY1jJ3VJGfOTy2QHXX&sharer_shareinfo=e9d7f26cb8c5ee72d0a881933fe622d4&sharer_shareinfo_first=e9d7f26cb8c5ee72d0a881933fe622d4#rd">数字生命卡兹克</a>）</p><h3 id="2-苏州国资-125-倍回报：联讯仪器封神，AI-算力光模块产业链浮出水面"><a href="#2-苏州国资-125-倍回报：联讯仪器封神，AI-算力光模块产业链浮出水面" class="headerlink" title="2. 苏州国资 125 倍回报：联讯仪器封神，AI 算力光模块产业链浮出水面"></a>2. 苏州国资 125 倍回报：联讯仪器封神，AI 算力光模块产业链浮出水面</h3><p><strong>原文</strong>：联讯仪器（688808.SH）上市仅 30 个交易日，股价从 81.88 元发行价飙升至最高 2350 元，6 月 9 日收盘总市值 2360 亿元，超越茅台成为 A 股”新股王”。早期入局的苏州国资持股市值约 45.04 亿元，对比数千万元初始成本，回报率高达 125 倍。联讯是国内屈指可数能量产 400G、800G、1.6T 高速光模块核心测试仪器的厂商，一季度净利润同比增 515.17%。苏州国资 2019 年天使轮即入场、陪跑 7 年；此前在全球光模块龙头中际旭创身上已斩获百倍回报（陪跑 16 年）。文章梳理出苏州在光芯片、光器件、光模块、PCB、测试仪器全产业链的”AI 军团”布局。（<a href="https://mp.weixin.qq.com/s?__biz=MzA5ODIwOTAxNw==&mid=2653162685&idx=1&sn=aa541ca978259613435cff44c37363d4&chksm=8a60067d7e3284273134766317016545cd1c1e82d5b544367046319138a6a666fa2dc30e3923&mpshare=1&scene=1&srcid=0609GshkEcd4ILii9WB9G4xy&sharer_shareinfo=15622769f1093256610b67a6a9ad57a0&sharer_shareinfo_first=15622769f1093256610b67a6a9ad57a0#rd">苏商会</a>）</p><h3 id="3-AI-开源入门科普：面向新手的知识点扫盲"><a href="#3-AI-开源入门科普：面向新手的知识点扫盲" class="headerlink" title="3. AI 开源入门科普：面向新手的知识点扫盲"></a>3. AI 开源入门科普：面向新手的知识点扫盲</h3><p><strong>原文</strong>：一篇 AI 入门科普文章，面向新手梳理开源大模型相关的基础知识点与概念扫盲。（原文因微信安全验证未能抓取正文，此处仅依据标题信息记录。）</p><hr><p>今天三条凑成了一条清晰的主线：AI 算力的钱怎么流动。上游，苏州国资靠”长情陪跑”在光模块产业链兑现 125 倍回报；下游，Claude Fable 5 用每百万输出 50 美元的定价和烧额度的速度，把”AI 正在变成贵族游戏”这句话摆到了普通用户面前。一头是资本的盛宴，一头是算力的门槛。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;🎯-今日要点&quot;&gt;&lt;a href=&quot;#🎯-今日要点&quot; class=&quot;headerlink&quot; title=&quot;🎯 今日要点&quot;&gt;&lt;/a&gt;🎯 今日要点&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Claude Fable 5 正式发布，全维度跑分 SOTA，6&amp;#x2F;22 前订阅</summary>
+      
+    
+    
+    
+    <category term="数据观察日报" scheme="http://hi-nikola.cn/categories/%E6%95%B0%E6%8D%AE%E8%A7%82%E5%AF%9F%E6%97%A5%E6%8A%A5/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据观察日报 · 2026-06-09</title>
+    <link href="http://hi-nikola.cn/2026/06/09/daily-observer/2026-06-09/"/>
+    <id>http://hi-nikola.cn/2026/06/09/daily-observer/2026-06-09/</id>
+    <published>2026-06-09T09:00:00.000Z</published>
+    <updated>2026-06-12T09:27:56.547Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="🎯-今日要点"><a href="#🎯-今日要点" class="headerlink" title="🎯 今日要点"></a>🎯 今日要点</h2><ol><li>国家数据局印发《行业高质量数据集建设行动实施方案》，部署六个专项行动，2028 年底见效</li><li>《全国数据资源调查报告（2025）》：AI 训练推理数据 199.48 艾字节，年增 42.86%</li><li>全国高质量数据集超 11 万个、908 拍字节，公共数据开放、授权运营量同比增 31.71%&#x2F;53.96%</li><li>老刘提出「数据界黑暗森林法则」：可信数据空间真正卡点在商业模式</li><li>卡兹克把 AI 使用水平拆成 4 维度、10 等级，从旁观者到造工具</li></ol><h2 id="📋-详细内容"><a href="#📋-详细内容" class="headerlink" title="📋 详细内容"></a>📋 详细内容</h2><h3 id="1-国家数据局发文：六大专项行动推进行业高质量数据集，2028-年底见效"><a href="#1-国家数据局发文：六大专项行动推进行业高质量数据集，2028-年底见效" class="headerlink" title="1. 国家数据局发文：六大专项行动推进行业高质量数据集，2028 年底见效"></a>1. 国家数据局发文：六大专项行动推进行业高质量数据集，2028 年底见效</h3><p><strong>原文</strong>：国数科基〔2026〕25 号文，明确「行业高质量数据集」定义——经采集、加工等处理、可直接用于 AI 模型训练、能有效提升性能的行业数据集合，含通识和专识。方案部署六个专项行动：强基扩容、标注攻坚、提质增效、应用赋能、管理服务、价值释放，构建「场景牵引数据、数据驱动模型、模型赋能应用、应用创造价值」的数据飞轮。聚焦科研、工业制造、农业、能源、交通、金融、医疗、教育、电商、人力、文旅、应急、气象、绿色低碳、公共安全、城市治理、住建、自然资源、社会信用等 19 个重点领域，外加低空经济、具身智能、智能驾驶、智慧海洋、生物制造 5 个创新领域。明确鼓励依托国家数据基础设施，运用隐私计算、可信数据空间能力开展安全存储、可信流通；标注模式从「以人为主」转向「人机协同、专家深度参与」。到 2028 年底建成一批行业数据集、典型应用场景、创新型数据企业和工具标准。（<a href="https://mp.weixin.qq.com/s?__biz=MzkzMTU5MDA3OQ==&mid=2247506063&idx=1&sn=7ba8c0cca06d7ff7460d4017441c4947&chksm=c3fb480fc890c44304a273dd579f069b70a669d1759b6acafd654b251d3e030f85a9f9cb136b&mpshare=1&scene=1&srcid=0608lCWRG7VbaTKCbQrE39SN&sharer_shareinfo=8f9ac7a603ac3b13edcb7a03ddc8d6fa&sharer_shareinfo_first=ed879bc188a2648d21ba646c449e51d9#rd">国家数据局</a>）</p><p>💬 <strong>老刘评</strong>：高质量数据集的建设可以说是当前数据行业最重要的风向了，风口。</p><h3 id="2-加强高质量数据供给：AI-训练推理数据年增-42-86-，高质量数据集超-11-万"><a href="#2-加强高质量数据供给：AI-训练推理数据年增-42-86-，高质量数据集超-11-万" class="headerlink" title="2. 加强高质量数据供给：AI 训练推理数据年增 42.86%，高质量数据集超 11 万"></a>2. 加强高质量数据供给：AI 训练推理数据年增 42.86%，高质量数据集超 11 万</h3><p><strong>原文</strong>：中科院院士李骏、复旦研究员王天栋撰文，结合《全国数据资源调查报告（2025）》解读数据供给侧的转向。报告显示 2025 年全国数据生产总量达 52.26 泽字节（同比增 27.28%），用于 AI 训练推理的数据总量达 199.48 艾字节（同比增 42.86%），全年词元调用量约 21100 万亿，日均词元已从 2024 年初的约 1000 亿涨到 2026 年 3 月的 140 万亿。高质量数据集数量超 11 万个、总数据量超 908 拍字节，同比分别增 61.13% 和 142.58%。公共数据开放数据量、授权运营数据量分别同比增 31.71%、53.96%。文章提出要以政务服务、能源电力等重点行业场景牵引高质量数据集建设，并健全任务牵引机制、安全可信流通生态、专业化数据服务产业体系。（<a href="https://mp.weixin.qq.com/s?__biz=MzkzNjcxMjUxNw==&mid=2247487978&idx=1&sn=f6da8e9eae8730743dd4a2dac3ac615a&chksm=c3cd37b068eef7b4148ee1ca2a1baf19e8420fa6c6e1fb8fed57f1cfa51006ca51bbd0f2abbb&mpshare=1&scene=1&srcid=0609NZl2Bx5NDepI4Ol23B0w&sharer_shareinfo=2fda602cfe94390c8e548cad3acf9deb&sharer_shareinfo_first=2fda602cfe94390c8e548cad3acf9deb#rd">北京数据</a>）</p><p>💬 <strong>老刘评</strong>：政务服务具备率先形成高质量数据供给示范场景的先天优势，很大一部分占比的优质数据都在公共数据中。</p><h3 id="3-数据中台、数据空间、交易所：可信数据空间到底解决什么问题"><a href="#3-数据中台、数据空间、交易所：可信数据空间到底解决什么问题" class="headerlink" title="3. 数据中台、数据空间、交易所：可信数据空间到底解决什么问题"></a>3. 数据中台、数据空间、交易所：可信数据空间到底解决什么问题</h3><p><strong>原文</strong>：老刘开启「可信数据空间」专栏的开篇之作。核心观点：政策是手段不是原因，可信数据空间解决的是信任问题，不是传输问题——API 能解决的场景就不需要它。他提出「数据界黑暗森林法则」，把原始数据市场博弈拆为三级猜疑链：担心违约、担心第三方安全、担心技术溢出反噬，最终导致每家企业都成孤岛。可信数据空间用「数据不出域 + 智能合约 + 连接器」打破猜疑链，把零和博弈转向正和。他用「厨房与市场」比喻三者关系：数据中台是自家厨房、数据交易所是农贸市场、可信数据空间是会员制共享中央厨房。文末提出落地三大隐患——商业动力（合规驱动撑不久，要找非它不可的场景如碳足迹追踪）、防止「空间烟囱」（必须死磕互联互通和标准化）、性能盈亏平衡点（加密计算损耗不能拖垮业务实时性）。（<a href="https://mp.weixin.qq.com/s?__biz=MzU3MDY0NDY4NA==&mid=2247485544&idx=1&sn=dd75725c366aab449b915cc7950aa5c6&chksm=fd0d626673c28bef1833648cfe44301a1756f2c39ca4e9e8fa17b870a45bfeafbf9ade060091&mpshare=1&scene=1&srcid=0609rl0gCRj0AYFNSzFnCerU&sharer_shareinfo=941cff6a3565fec9209cd12fa2423950&sharer_shareinfo_first=941cff6a3565fec9209cd12fa2423950#rd">Nikola数说未来</a>）</p><p>💬 <strong>老刘评</strong>：现在来看，可信数据空间最大的问题是运营和商业模式。为了安全有没有必要花这么多钱做这个基础设施？</p><h3 id="4-观察了三年，我把所有人用-AI-的水平分成了-10-个等级"><a href="#4-观察了三年，我把所有人用-AI-的水平分成了-10-个等级" class="headerlink" title="4. 观察了三年，我把所有人用 AI 的水平分成了 10 个等级"></a>4. 观察了三年，我把所有人用 AI 的水平分成了 10 个等级</h3><p><strong>原文</strong>：卡兹克把这三年观察到的 AI 用户，按四个维度——可控性（从瞎编到精准 harness）、广度（从一亩三分地到跨行业）、形态（从 ChatBot 到 Agent 长程任务）、角色（从消费者到造 Skill 的创造者）——拆成 10 个等级。Lv.0 旁观者（全球还有 80% 在这一级）、Lv.1 尝鲜者（AI 当高级搜索引擎用、不追问）、Lv.2 对话者（开始意识到「怎么问」比「问什么」重要）⋯⋯一路到 Lv.10。结尾点题：从 Lv.0 到 Lv.9 都在讲怎么用好 AI，到 Lv.10 问题变成「我到底要成为什么样的人」——AI 把执行力拉平之后，一百个人产出差距还是一百倍，差距来自人脑子里装的东西（理解、审美、价值排序），工具平权的终局是人的不平权。（<a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647682080&idx=1&sn=a28669e4d298a57c496d85bd2ce361ea&chksm=f187562032351f21747992d91bc5beb6558c506d2b2c1f7199779b353a556b6a555f12b9b82f&mpshare=1&scene=1&srcid=0609RjPbkPbiztXNUu942PNP&sharer_shareinfo=8d5dd4ba1eb3deb2aed90b07262fd28c&sharer_shareinfo_first=9878224684335b1362230f52c7b338a5#rd">数字生命卡兹克</a>）</p><p>💬 <strong>老刘评</strong>：你是哪个等级呢？很多初学者会问我，直接在网页端输入和用 Claude Code 有什么区别。</p><hr><p>今天 4 条剪藏正好两条主线：上半场是”高质量数据集”——国家数据局正式发文（六大行动、19+5 个领域、2028 年节点）、北京数据用《全国数据资源调查报告》给上文做注脚，政策面和数据面对上号；下半场是”基础设施 vs 用户”——老刘讲可信数据空间这个 B 端基础设施值不值得建，卡兹克讲普通人怎么爬 AI 使用度的 10 级阶梯。一上一下，行业的飞轮和人的飞轮，都得转起来。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;🎯-今日要点&quot;&gt;&lt;a href=&quot;#🎯-今日要点&quot; class=&quot;headerlink&quot; title=&quot;🎯 今日要点&quot;&gt;&lt;/a&gt;🎯 今日要点&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;国家数据局印发《行业高质量数据集建设行动实施方案》，部署六个专项行动，2028 年底见效</summary>
+      
+    
+    
+    
+    <category term="数据观察日报" scheme="http://hi-nikola.cn/categories/%E6%95%B0%E6%8D%AE%E8%A7%82%E5%AF%9F%E6%97%A5%E6%8A%A5/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据观察日报 · 2026-06-08</title>
+    <link href="http://hi-nikola.cn/2026/06/08/daily-observer/2026-06-08/"/>
+    <id>http://hi-nikola.cn/2026/06/08/daily-observer/2026-06-08/</id>
+    <published>2026-06-08T09:00:00.000Z</published>
+    <updated>2026-06-12T09:27:56.547Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="🎯-今日要点"><a href="#🎯-今日要点" class="headerlink" title="🎯 今日要点"></a>🎯 今日要点</h2><ol><li>数字生命卡兹克：12 个顶级 AI 同台高考，4 位高中老师盲评</li><li>老刘出品：DCMM 贯标已破 1.18 万家，2.0 新标准 7 月实施</li><li>麦肯锡：八成企业把数据短板视为智能体规模化的障碍</li><li>AI 加速派：豪华大厂风 PPT 三种方案对比与选型</li></ol><h2 id="📋-详细内容"><a href="#📋-详细内容" class="headerlink" title="📋 详细内容"></a>📋 详细内容</h2><h3 id="1-12-个顶级-AI-同台高考：4-位高中老师盲评-公平为先"><a href="#1-12-个顶级-AI-同台高考：4-位高中老师盲评-公平为先" class="headerlink" title="1. 12 个顶级 AI 同台高考：4 位高中老师盲评,公平为先"></a>1. 12 个顶级 AI 同台高考：4 位高中老师盲评,公平为先</h3><p><strong>原文</strong>：今年高考季,数字生命卡兹克让 12 个旗舰大模型同时考语文和数学。国外御三家：Claude Opus 4.8、GPT-5.5、Gemini 3.1 Pro;国内 9 家：千问 3.7 max、文心 5.1、星火 X2、智谱 GLM5.1、Kimi k2.6、MiniMax M3、DeepSeek V4 Pro、小米 MiMo v2.5 Pro、混元 3。所有模型走 API、开 thinking、禁工具调用,10 家统一走 OpenRouter 求公平。请到 3 位语文老师 + 1 位数学老师盲评(卷子只标代号),还自研了 LaTeX 题目编译器和在线阅卷平台。语文用部分真题(卷子没等到完整版),数学全卷。(<a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683050&idx=1&sn=0d46fcb9df6f2a2842cddf7e33006426">数字生命卡兹克</a>)</p><p>💬 <strong>老刘评</strong>：昨天想着用大模型测试一下高考试卷,没想到今天就看到有博主已经做了!AI 数学能够考 140!</p><h3 id="2-DCMM-贯标突破-1-18-万家：2-0-新标准-7-月实施-新增数据资产能力域"><a href="#2-DCMM-贯标突破-1-18-万家：2-0-新标准-7-月实施-新增数据资产能力域" class="headerlink" title="2. DCMM 贯标突破 1.18 万家：2.0 新标准 7 月实施,新增数据资产能力域"></a>2. DCMM 贯标突破 1.18 万家：2.0 新标准 7 月实施,新增数据资产能力域</h3><p><strong>原文</strong>：老刘自己用 Claude 做了一个 DCMM 贯标情况分析 Skill,基于中国电子信息行业联合会官方数据生成完整报告。截至 2026 年 5 月中旬,1-5 级贯标企业总数 11801 家。DCMM 2.0 新标准将于 2026 年 7 月初正式实施：能力域由 8 个增至 9 个,二级能力项 28 → 33 项,新增「数据资产」能力域,更重视数据流通、外部数据管理、数据安全。报告从宏观层面分析各等级、各地区、各行业贯标情况以及近年趋势。(<a href="https://mp.weixin.qq.com/s?__biz=MzU3MDY0NDY4NA==&mid=2247486017&idx=1&sn=fd1cac4210d4426de208e29b292e3a94">Nikola 数说未来</a>)</p><p>💬 <strong>老刘评</strong>：DCMM 2.0 新标准 7 月份就要开始实施了,到目前整体贯标情况分析。</p><h3 id="3-八成企业卡在数据底座：麦肯锡给智能体规模化开-4-步药方"><a href="#3-八成企业卡在数据底座：麦肯锡给智能体规模化开-4-步药方" class="headerlink" title="3. 八成企业卡在数据底座：麦肯锡给智能体规模化开 4 步药方"></a>3. 八成企业卡在数据底座：麦肯锡给智能体规模化开 4 步药方</h3><p><strong>原文</strong>：麦肯锡报告。全球近 2&#x2F;3 企业已试水智能体,但真正规模化部署的不足 1&#x2F;10,八成企业把数据短板视为障碍。麦肯锡提出 4 步走：① 筛选高价值工作流”智能体化”——从知识管理、市场营销等关键领域入手做定向重构;② 分层升级数据架构——不推倒重来,做模块化现代化;③ 数据质量从周期性清理转向实时管控;④ 搭建适配智能体的运营治理体系(角色从执行转向监督调度)。单智能体和多智能体两类形态都依赖统一可互通的数据底座,否则会出现决策矛盾或协同失败。(<a href="https://mp.weixin.qq.com/s?__biz=MzA4MDUzOTIxNA==&mid=2653868147&idx=1&sn=cbd7e1b81f06f00fd4e11e0165b01b4f">麦肯锡</a>)</p><p>💬 <strong>老刘评</strong>：多智能体协同?先解决数据问题!</p><h3 id="4-AI-生成豪华-PPT：三种方案、各自缺点、提示词思路"><a href="#4-AI-生成豪华-PPT：三种方案、各自缺点、提示词思路" class="headerlink" title="4. AI 生成豪华 PPT：三种方案、各自缺点、提示词思路"></a>4. AI 生成豪华 PPT：三种方案、各自缺点、提示词思路</h3><p><strong>原文</strong>：AI 加速派对比当前 AI 生成 PPT 的三种主流方案。① 用 Nano Banana Pro 生成图片型 PPT——上限极高、信息密度大,缺点是图片不易编辑、汉字易错(NotebookLM 是该路线代表,免费但风格极简);② Agent 直接编辑 PPT 文件——Claude Cowork、Codex、小龙虾都能干,配合 anthropic 官方 pptx Skill 替换模板可做出大厂风格,关键是要提供成熟模板;③ 通过生成 SVG 网页的方式生成。豪华风格的提示词思路：先从专业 PPT 站下载顶级模板,让 Gemini 反向分析写出提示词,再把模板图作为参考喂回去。(<a href="https://mp.weixin.qq.com/s?__biz=MzkwNDcwNzk5NQ==&mid=2247484397&idx=1&sn=d215de8ea6537dfa7dfc68cc9fff055e">AI 加速派</a>)</p><p>💬 <strong>老刘评</strong>：现在大模型可以制作复杂 PPT 了,并且能完美复刻图片型 PPT!</p><hr><p>今天 4 条剪藏里 3 条围绕 AI 落地的不同维度——高考评测看模型上限、麦肯锡盯数据底座、AI 加速派拆解工作流(PPT 生成),中间夹了一条 DCMM 数据治理本身。一个共同信号正在出现：<strong>AI 越往实际工作流下沉,「数据底座」越成为门槛</strong>。麦肯锡那句”八成企业把数据短板视为障碍”和 DCMM 新标准把”数据资产”单独列成能力域,是同一件事的两面。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;🎯-今日要点&quot;&gt;&lt;a href=&quot;#🎯-今日要点&quot; class=&quot;headerlink&quot; title=&quot;🎯 今日要点&quot;&gt;&lt;/a&gt;🎯 今日要点&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;数字生命卡兹克：12 个顶级 AI 同台高考，4 位高中老师盲评&lt;/li&gt;
+&lt;li&gt;老刘</summary>
+      
+    
+    
+    
+    <category term="数据观察日报" scheme="http://hi-nikola.cn/categories/%E6%95%B0%E6%8D%AE%E8%A7%82%E5%AF%9F%E6%97%A5%E6%8A%A5/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>时间过得真快，我的博客已经一周年了</title>
+    <link href="http://hi-nikola.cn/2023/05/05/%E6%97%B6%E9%97%B4%E8%BF%87%E5%BE%97%E7%9C%9F%E5%BF%AB%EF%BC%8C%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%B7%B2%E7%BB%8F%E4%B8%80%E5%91%A8%E5%B9%B4%E4%BA%86/"/>
+    <id>http://hi-nikola.cn/2023/05/05/%E6%97%B6%E9%97%B4%E8%BF%87%E5%BE%97%E7%9C%9F%E5%BF%AB%EF%BC%8C%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%B7%B2%E7%BB%8F%E4%B8%80%E5%91%A8%E5%B9%B4%E4%BA%86/</id>
+    <published>2023-05-05T23:10:09.000Z</published>
+    <updated>2026-06-12T09:27:56.553Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是我的第一篇博客（2022-4-28）：<a href="https://hi-nikola.cn/2022/04/28/newpapername/">first test | Nikola的博客 (hi-nikola.cn)</a>，当时刚刚买了域名，然后看B站教程学习如何在服务器上启WordPress，真的超级激动搞到了半夜一两点，当时那段时间每天想的就是怎么把自己的博客整的好看一点，用什么样的主题。一晃一年已经过去了，感觉时间过得太快了，我喜欢这种自由的互联网冲浪的感觉，因为在此之前我对网络的认识基本为零，大学专业也不是计算机网络相关的，后来转行做了数据，才开始了解这些，更重要的是我发现对于网络不仅仅只有微博微信，还有墙外的世界以及散落在数字世界中的独立博客。</p><span id="more"></span> <h4 id="这一年通过写blog，我获得了什么？"><a href="#这一年通过写blog，我获得了什么？" class="headerlink" title="这一年通过写blog，我获得了什么？"></a>这一年通过写blog，我获得了什么？</h4><p>获得了什么呢？——实际上没有任何物质的回报，一个普通人通过极其“原始”的方式blog发布文章，没有任何流量推广机制，也没有什么SEO，基本上我的文章的唯一读者就是我自己。后来我开始通过newsletter竹白同步自己的blog才有了一百多个订阅者，但是现在已经停更许久了，原因有两点：一是最近一段时间工作比较忙，人也比较的累，基本没什么创作的欲望；二是我其实很害怕通过newsletter去打扰到别人，因为newsletter是推送机制的，也就意味着我的文章发布之后，所有的订阅者都会收到一条提醒，我内心是很害怕这种场景的，因为我觉得我的内容可能很平淡或者根本没办法给他人提供什么帮助，如果别人偶然订阅了我的newsletter但对我的内容并不特别感兴趣，我却还经常更新的话就会打扰到别人。因此，我最近的一些文章都是通过blog发布的，blog的一个好处就是“不打扰别人”，没有任何推荐机制和推送机制，如果别人想看你的博客直接输入网址就好了。我写博客的目的是记录自己的生活、学过的知识、分享自己的一些观点，这些本身就是琐碎的，（在他人看来）可能是毫无意义的，但是对我而言，这块地方是我数字世界中的自己，我记录下来我的琐碎，也正是这些才构成了完整的自己。<br><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202305052306620.png"><br>前几天，申请了<code>十年之约</code>,未来会有朋友通过虫洞随机到我的blog，我也相信在茫茫世界中或许有一两个看到我的blog会和我共鸣的人（如果真的有）那真是一件美好的事情啊。<br>最近看到一篇blog：<a href="https://herman.bearblog.dev/will-ai-kill-blogging/">Will AI kill blogging? | ᕕ( ᐛ )ᕗ Herman’s blog (bearblog.dev)</a>，里面有这样一段话：</p><blockquote><p>Furthermore, the creative process behind crafting a blog is a meaningful and rewarding experience for the blogger. Through this process, they can reflect on their own thoughts, learn from their experiences, and engage with their audience in a way that is genuinely human. Ultimately, blogs are a person’s place to express themselves. Their planting of a flag in the digital realm. <strong>It is their shout into the void, their way of saying “this is me”.</strong></p></blockquote><p>尤其是在2023年“短而快”的内容“流行”的时间节点上，我觉得写blog是一件小众且“cool”的事情！更重要的是我还可以看到互联网上许许多多人通过长文分享他们的生活和经验，这本身就是一件美好的事情！</p><h4 id="这个blog未来的发展"><a href="#这个blog未来的发展" class="headerlink" title="这个blog未来的发展"></a>这个blog未来的发展</h4><p>哈哈哈，用“发展”这个词语太高大上了。在接下来的日子里我准备——<strong>多更新</strong>！主要的内容有：</p><ol><li>自己工作、阅读学习到的知识进行整理，发布到这里。（以后项目上带新人，遇到他们不懂得知识点，直接甩我的博客链接。多酷啊！）</li><li>记录自己的日常。之前的我很多想法、琐碎的事情都是写在备忘录或者写在ediary日记本里面，但是现在我觉得我绝大部分经历和思考都不是“隐私的”，这些内容都是可以公开的（更何况我的blog没人访问，如果有一天我出名了，等等，这个可能性为0！）。而且，我的很多奇思妙想还是挺有意思的。最糟糕的一种情况就是如果突发意外GG ——game over（呸呸呸），这些文字还是我的另一种存在的形式。</li><li>分享自己看到的英文blog。之前我尝试在博客里直接全篇翻译我阅读到的好的英文blog ，但是我觉得这种方式不太好，因为全篇翻译很累，而且对于读者（如果有读者的话）没有任何意义（直接Google翻译不比我翻译的要好要快吗？）。所以后面我准备只截取英文博客里的片段进行分享并且写下自己的想法，这样既保持自己英语阅读的习惯又能够留下自己的反思和想法，对于写作者是一种比较轻松的分享方式。</li></ol><p><del>希望我能够坚持下去</del>。我不喜欢用坚持这个词语，好像是强迫自己似的。我希望未来我能够自然而然的写下去。</p><p>It is my shout into the void, my way of saying “this is me”。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;这是我的第一篇博客（2022-4-28）：&lt;a href=&quot;https://hi-nikola.cn/2022/04/28/newpapername/&quot;&gt;first test | Nikola的博客 (hi-nikola.cn)&lt;/a&gt;，当时刚刚买了域名，然后看B站教程学习如何在服务器上启WordPress，真的超级激动搞到了半夜一两点，当时那段时间每天想的就是怎么把自己的博客整的好看一点，用什么样的主题。一晃一年已经过去了，感觉时间过得太快了，我喜欢这种自由的互联网冲浪的感觉，因为在此之前我对网络的认识基本为零，大学专业也不是计算机网络相关的，后来转行做了数据，才开始了解这些，更重要的是我发现对于网络不仅仅只有微博微信，还有墙外的世界以及散落在数字世界中的独立博客。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="生活" scheme="http://hi-nikola.cn/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>逛北京法源寺</title>
+    <link href="http://hi-nikola.cn/2023/04/22/%E9%80%9B%E5%8C%97%E4%BA%AC%E6%B3%95%E6%BA%90%E5%AF%BA/"/>
+    <id>http://hi-nikola.cn/2023/04/22/%E9%80%9B%E5%8C%97%E4%BA%AC%E6%B3%95%E6%BA%90%E5%AF%BA/</id>
+    <published>2023-04-22T16:27:36.000Z</published>
+    <updated>2026-06-12T09:27:56.581Z</updated>
+    
+    <content type="html"><![CDATA[<p>四月出差北京，住在珠市口西大街旁胡同里，附近有北京天坛、陶然亭公园、纪晓岚故居，再往西走一走就到了法源寺。</p><span id="more"></span> <p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202304221624510.jpg"><br><strong>北京法源寺位于宣武门外教子胡同南端东侧</strong>。从宣武门外大街到菜市口大街，绕进烂缦胡同穿过西砖胡同就到了法源寺。<br><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202304221624513.jpg"></p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202304221624511.jpg"></p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202304221624512.jpg"></p><p>第一次听说法源寺是之前看李敖李大师聊过这本书，后来发现B站有这本书改编成的话剧——非常推荐值得一看，两个多小时，台词非常震撼，节奏非常的棒，让我了解到戊戌变法前后发生的种种。那个时期需要求新变法，但是改革政体却是不易，变法如果冒进，导致政局不稳，社会动荡，因此改革并不是一句口号，并不是一说改变就从上到下从里到外彻彻底底的改变，什么应该改，什么应该变，是那个时候剧烈争论的。这部话剧里，让各派势力有机会发声，站在他们的 角度诉说对戊戌变法的看法。<br><a href="https://www.bilibili.com/video/BV1Ux4y1F7hS/?spm_id_from=333.337.search-card.all.click&vd_source=92e68e40f149ffa695a215115d8a042a">如今最稀缺的文人风骨！【话剧】北京法源寺 1080p ai修复版_哔哩哔哩_bilibili</a><br>相比于其他景区，法源寺真显得冷清，人不多，很安静，里面比较罕见的古树（国槐、银杏）和石碑。一圈逛下来大概半个小时，顺带着逛逛周围的胡同，非常的舒适，另外这里不得不提一句胡同里的小馆子味道真不错。<br><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202304221624509.jpg"></p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202304221624507.jpg"></p><p>在这里有很多传闻：一是当年泰戈尔来北京，就在这法源寺和徐志摩相谈甚欢；二是当年齐白石来京穷困潦倒的时候晚上就住在法源寺，白天到琉璃厂卖画。</p><p>就在这么一个胡同巷子里，看起来极其普通的，寺庙不要门票，基本没看到什么管理人员，在这漫长的历史上居然发生种种故事还被流传下来，真觉得奇妙。不论传说是真是假，一个地方因为有了故事就变得神秘而有趣了。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;四月出差北京，住在珠市口西大街旁胡同里，附近有北京天坛、陶然亭公园、纪晓岚故居，再往西走一走就到了法源寺。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="生活" scheme="http://hi-nikola.cn/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git的使用</title>
+    <link href="http://hi-nikola.cn/2023/03/04/git%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>http://hi-nikola.cn/2023/03/04/git%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+    <published>2023-03-04T18:06:39.000Z</published>
+    <updated>2026-06-12T09:27:56.547Z</updated>
+    
+    <content type="html"><![CDATA[<p>git 版本管理真的是超级方便。分布式版本系统的最大好处之一是在本地工作完全不需要考虑远程库的存在，也就是有没有联网都可以正常工作，而SVN在没有联网的时候是拒绝干活的！当有网络的时候，再把本地提交推送一下就完成了同步，真是太方便了！</p><span id="more"></span> <p>对于文本类文件能够知道增加、删除了哪些内容（对于二进制文件 图片、word，就很难管理了)。<strong>Git管理的是修改，而不是文件</strong>。其中，我们要明白两个概念：工作区和暂存区。工作区是我们正常工程文件下的区域，暂存区是<code>.git</code>文件夹下的，当我们<code>git add .</code>文件后 文件被添加至stage暂存区。</p><hr><p><a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站 (liaoxuefeng.com)-讲的非常好！</a></p><blockquote><p>文件往Git版本库里添加的时候，是分两步执行的：<br>第一步是用<code>git add</code>把文件添加进去，实际上就是把文件修改添加到暂存区；<br>第二步是用<code>git commit</code>提交更改，实际上就是把<strong>暂存区</strong>的所有内容提交到当前分支。<br>因为我们创建Git版本库时，Git自动为我们创建了唯一一个<code>master</code>分支，所以，现在，<code>git commit</code>就是往<code>master</code>分支上提交更改。</p></blockquote><h4 id="添加、提交"><a href="#添加、提交" class="headerlink" title="添加、提交"></a>添加、提交</h4><pre><code class="bash">git initgit add readme.txt -- 一次可以多次添加文件，再一起commitgit commit -m &quot;add readme.txt&quot;</code></pre><h4 id="查看本地修改内容"><a href="#查看本地修改内容" class="headerlink" title="查看本地修改内容"></a>查看本地修改内容</h4><pre><code class="bash">git satus -- 查看暂存区和工作区文件的状态：哪些文件做了修改、哪些文件还未提交。git diff readme.txt -- 也可以不加具体的文件，查看暂存区和工作区文件的修改区别。</code></pre><h4 id="查看提交日志和恢复到指定版本"><a href="#查看提交日志和恢复到指定版本" class="headerlink" title="查看提交日志和恢复到指定版本"></a>查看提交日志和恢复到指定版本</h4><pre><code class="bash">git log -- 查看提交记录 记录了每一次提交的内容和commitidgit log --pretty=oneline --显示更简洁的log信息git reset --hard xxx  -- xxx表示commitid  会退到指定的版本。这个时候再git log查看 已经到了该版本啦</code></pre><p>当回退到指定版本后，想恢复，但是这个时候没办法在控制台找到commitid了，这个时候</p><pre><code class="bash">git reflog---- 记录了每一次提交的id381c40d HEAD@&#123;0&#125;: reset: moving to 381c4f83abc6 HEAD@&#123;1&#125;: reset: moving to f83abc381c40d HEAD@&#123;2&#125;: reset: moving to 381cf83abc6 HEAD@&#123;3&#125;: reset: moving to HEAD^381c40d HEAD@&#123;4&#125;: commit: allf83abc6 HEAD@&#123;5&#125;: commit (initial): wrote a readme file</code></pre><h4 id="一个文件修改了如何撤销？对于文件的状态有下面几种情况："><a href="#一个文件修改了如何撤销？对于文件的状态有下面几种情况：" class="headerlink" title="一个文件修改了如何撤销？对于文件的状态有下面几种情况："></a>一个文件修改了如何撤销？对于文件的状态有下面几种情况：</h4><ol><li>文件修改了没有<code>git add </code>   到缓存区    – <code>git status</code>查看，根据提示修改</li></ol><pre><code class="bash"># 位于分支 master# 尚未暂存以备提交的变更：#   （使用 &quot;git add &lt;file&gt;...&quot; 更新要提交的内容）#   （使用 &quot;git checkout -- &lt;file&gt;...&quot; 丢弃工作区的改动）##       修改：      test.txt</code></pre><ol start="2"><li>文件<code>git add</code>到了缓存区       – 同理</li><li>文件<code>git commit </code>到了分支   –<code>git reset</code>版本回退</li><li>文件<code>git push</code>到了远程</li></ol><h4 id="推送到远程仓库"><a href="#推送到远程仓库" class="headerlink" title="推送到远程仓库"></a>推送到远程仓库</h4><p>本地Git仓库和GitHub仓库之间的传输是通过SSH加密的，所以，需要设置:<br><a href="https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416">远程仓库 - 廖雪峰的官方网站 (liaoxuefeng.com)</a></p><pre><code class="bash"> ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</code></pre><p>然后在github中添加公共钥匙。</p><pre><code class="bash">git remote add origin git@github.com:hi-nikola/learngit.git      -- ssh链接git push -u origin master    --  git push origin master </code></pre><blockquote><p>由于远程库是空的，我们第一次推送<code>master</code>分支时，加上了<code>-u</code>参数，Git不但会把本地的<code>master</code>分支内容推送的远程新的<code>master</code>分支，还会把本地的<code>master</code>分支和远程的<code>master</code>分支关联起来，在以后的推送或者拉取时就可以简化命令，不带u了。</p></blockquote><p>查看git户主名和邮箱</p><pre><code class="bash">git config user.namegit config user.email# 绑定git config --global user.email &quot;you@example.com&quot;git config --global user.name &quot;Your Name&quot;# 解绑git config --global --unset user.name &quot;Your Name&quot;git config --global --unset user.email &quot;you@example.com&quot;</code></pre><p><em>查看或者删除remote</em>：</p><pre><code class="bash">git remote -vgit remote rm origin</code></pre><h4 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h4><pre><code class="bash">git branch -m 旧名字 新名字 git branch -m master main</code></pre><blockquote><p>查看分支：<code>git branch</code><br>创建分支：<code>git branch &lt;name&gt;</code><br>切换分支：<code>git checkout &lt;name&gt;</code>或者<code>git switch &lt;name&gt;</code><br>创建+切换分支：<code>git checkout -b &lt;name&gt;</code>或者<code>git switch -c &lt;name&gt;</code><br>合并某分支到当前分支：<code>git merge &lt;name&gt;</code><br>删除分支：<code>git branch -d &lt;name&gt;</code></p></blockquote><p>合并分支以及解决冲突：<a href="https://www.liaoxuefeng.com/wiki/896043488029600/900004111093344">解决冲突 - 廖雪峰的官方网站 (liaoxuefeng.com)</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;git 版本管理真的是超级方便。分布式版本系统的最大好处之一是在本地工作完全不需要考虑远程库的存在，也就是有没有联网都可以正常工作，而SVN在没有联网的时候是拒绝干活的！当有网络的时候，再把本地提交推送一下就完成了同步，真是太方便了！&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="技术" scheme="http://hi-nikola.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>中秋小记</title>
+    <link href="http://hi-nikola.cn/2022/09/16/%E4%B8%AD%E7%A7%8B%E5%B0%8F%E8%AE%B0/"/>
+    <id>http://hi-nikola.cn/2022/09/16/%E4%B8%AD%E7%A7%8B%E5%B0%8F%E8%AE%B0/</id>
+    <published>2022-09-16T12:46:55.000Z</published>
+    <updated>2026-06-12T09:27:56.548Z</updated>
+    
+    <content type="html"><![CDATA[<p>中秋回家一趟， 顺手记录。</p><span id="more"></span><h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>下火车，排队做核酸，支付宝自主申报，坐车回家。还没到家就接到几个电话，问我是否报备、确定我是否从武昌区回来，要求我隔离三天，并说等下就来封门。我当时就纳闷了<strong>低风险地区</strong>往返怎么层层加码。于是先打了12345市长热线询问，又打防控指挥部询问，得到的答复是：武昌区回来的要隔离三天，有相关疫情防控文件但是不公开。</p><p>为什么不能公开呢？我想，这大概就是法不可知，则威不可测的意思吧。</p><h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>小侄子今年上一年级了，一个班五十多个孩子，一个年级十个班。刚开学一周，老师就给学生们布置了任务要求一个月背诵一篇文章。大概内容如下：</p><blockquote><p>我们生在红旗下， 长在春风里， 目光所至皆为华夏， 五星闪耀皆为信仰， …… 人民有信仰， 国家有力量， 民族有希望。</p></blockquote><p>最后</p><blockquote><p>实现中华民族伟大复兴</p></blockquote><p>没想到，这么小的孩子都要承担起伟大民族的复兴了，尽管他还不知道“复兴”两个字怎么写。</p><h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>听他爸说已经给小侄子报了三个课外班了，一三四练字班、二五舞蹈班、周六上午画画班。每天下午五点半去接娃放学，六点送到课外班，上大概一个多小时的课，回家吃完饭大概八点，然后监督娃完成老师布置的作业，其间少不了和娃“大战三百回合”，例如，一个简单的加减法不会做，教了一次又一次，还是用手指头掰不出来正确答案，气的小夫妻揍了孩子一顿，娃大哭，夫妻二人哄孩子，然后继续教做作业。作业做完洗澡睡觉，大概九点多到十点，一天就这么过去了。</p><p>听到这么紧密的日程安排真替孩子难受，但是转念一想，毕竟是肩负着实现民族伟大复兴的重担，也难怪。</p><blockquote><p>所谓的那快乐 赤脚在田里追蜻蜓 追到累了 偷摘水果 被蜜蜂给叮到怕了 谁在偷笑呢 我靠着稻草人 吹着风 唱着歌 睡着了 《稻香》</p></blockquote><p>我那小侄子现在所谓的快乐就是周日可以和爸爸一起去看挖掘机。</p><p>小男孩好像都挺喜欢挖掘机的。</p><h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>坐火车回汉，无聊翻书。</p><p>看到一段丰子恺学琴的故事，他的音乐老师是李叔同，就是那位写“长亭外，古道边”的弘一法师。丰子恺说自己学习音乐的经历只感到艰辛与严肃，从未有过学习音乐的舒服。</p><blockquote><p>我们的先生的教授音乐是这样地严肃的。但他对于这样严肃的教师生活，似乎还不满足，后来就做了和尚而度更严肃的生活了。同时我也就毕业离校，入社会谋生，不再练习弹琴。说起音乐演奏，总觉得是一种非常严肃的行为。我须得用了“如临大敌”的态度而弹琴，用了“如见大宾”的态度而听人演奏。弹过听过之后，只感到兴奋的疲倦，绝未因此而感得舒服。</p></blockquote><p>那这个世界上有没有娱乐的音乐呢?作者最终还是在“同乐会”的席上遇到了。</p><blockquote><p>同乐会就是由一部分同学和教师在台上扮各种游艺，给其余的同学和教师欣赏。游艺中有各种各样的演，唱，和奏。总之全是令人发笑的花头。座上不绝地发出哄笑的声音。我回看后面的听众，但见许多血盆似的笑口。我似觉身在大世界新世界一类的游戏场中了。我觉得这同乐会的确是“乐”！在座的人可以全不费一点心力而只管张着嘴巴嬉笑。听他们的唱奏，也可以全不费一点心力而但觉鼓膜上的快感。这与我所学习的音乐大异，这真可说是舒服的音乐。听这种音乐，不必用“如见大宾”的态度，而只须当作喝酒。我在座听了一回音乐，好似喝了一顿酒，觉得陶醉而舒服。</p></blockquote><p>我又想到了那可怜的小侄子，想起他爸爸说娃是喜欢画画才给他报的画画班。</p><p>我希望小侄子以后在画画的时候不至于“如临大敌”、“如见大宾”。</p><h2 id="五"><a href="#五" class="headerlink" title="五"></a>五</h2><p>又翻一页，看到这样一段：</p><blockquote><p>余初生时，怖夫天之乍明乍暗，家人日:昼夜也。怪夫人之乍有乍无，日:生死也。教余别星，日:孰箕斗;别禽，曰:孰鸟鹊，识所始也。生以长，乍暗乍明乍有乍无者，渐不为异。间于纷纷混混之时，自提其神于太虚而俯之，觉明暗有无之乍乍者，微可悲也。 《西青散记•自序》</p></blockquote><p>读完觉得真悲伤。尘世匆匆，已经无暇思考，唯有到了“太虚之境”才“觉明暗有无之乍乍者，微可悲也”，这又是另一种可悲。</p><h2 id="六"><a href="#六" class="headerlink" title="六"></a>六</h2><blockquote><p>我从山中来，带着兰花草。<br>种在小园中，希望花开早。<br>一日看三回，看得花时过。<br>兰花却依然，苞也无一个。</p></blockquote><p>火车上的歌声响起，胡适先生的这首诗写的真好。我也要到武昌站了。</p><hr><p>🧭我的<a href="https://hi-nikola.cn/">个人网站</a>：<a href="http://www.hi-nikola.cn/">www.hi-nikola.cn</a></p><p>📧我的邮箱：<a href="mailto:hi-nikola@aliyun.com">hi-nikola@aliyun.com</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;中秋回家一趟， 顺手记录。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="随笔" scheme="http://hi-nikola.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>汪曾祺和沙家浜</title>
+    <link href="http://hi-nikola.cn/2022/07/09/%E6%B1%AA%E6%9B%BE%E7%A5%BA%E5%92%8C%E6%B2%99%E5%AE%B6%E6%B5%9C/"/>
+    <id>http://hi-nikola.cn/2022/07/09/%E6%B1%AA%E6%9B%BE%E7%A5%BA%E5%92%8C%E6%B2%99%E5%AE%B6%E6%B5%9C/</id>
+    <published>2022-07-09T11:02:34.000Z</published>
+    <updated>2026-06-12T09:27:56.575Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>想当初老子的队伍才开张，拢共才有十几个人、七八条枪。</p><p>遇皇军追得我晕头转向，多亏了阿庆嫂，她叫我水缸里面把身藏。</p></blockquote><span id="more"></span> <h4 id="关于沙家浜"><a href="#关于沙家浜" class="headerlink" title="关于沙家浜"></a>关于沙家浜</h4><p>昨日看《老头儿汪曾祺》才知道汪老居然是《沙家浜》的编剧，忍不住回温了数遍，我觉得配合视频来听更有感觉，像我这种对京剧不熟悉的人，里面的有些词语唱的太快我反应不过来，跟着字幕，看着演员的神情动作更能体会其中的妙处。</p><p>最开始是从电视剧《人民的名义》知道的智斗，有一集祁同伟、高小琴等人在酒桌上唱起来，瞬间觉得剧情局势紧张了起来，后去网易云搜了一下智斗，反复听了几遍觉得电视剧中用这一段京剧还是很用心的。</p><p>昨日在书中看到江青指派北京戏剧团改编沪剧剧本《芦苇火种》，创作班子里有薛恩厚、肖甲、杨毓珉、汪曾祺，后来剧本名改为了《沙家浜》，因为领导觉得《芦苇火种》字面意思矛盾，芦苇周围都是水，怎么能保存火种呢？后来改名成了《沙家浜》。</p><p>最开始听智斗中有这么一段听起来很是带劲：</p><blockquote><p>垒起七星灶，铜壶煮三江。<br>摆开八仙桌，招待十六方。<br>来的都是客，全凭嘴一张。<br>相逢开口笑，过后不思量。<br>人一走，茶就凉……有什么周详不周详！</p></blockquote><p>看到书中才知道，这一段西皮流水在传统京剧里很少见，一般是七字一句，但是汪曾祺却用了五言来烘托气氛，当时负责唱腔设计的老师觉得五言不好安腔，汪备了一份七言的唱词，好在最终还是设计出五言的来了。这段唱词的核心是“人一走，茶就凉”，原来剧本里是没有这一句，后来这句话广为流传。</p><blockquote><p>一次周总理在布置工作时最后加了一句，咱们可不要“人一走茶就凉呀”。一个人一辈子写的东西，有几句能够传下去，确实也值得高兴。</p></blockquote><p>关于西皮流水，B站有个视频做得很有趣，在这里分享一下：<a href="https://www.bilibili.com/video/BV1ab4y1x7SM/?spm_id_from=333.788&vd_source=92e68e40f149ffa695a215115d8a042a" title="西皮流水《哆啦A梦》 哔哩哔哩">西皮流水《哆啦A梦》 哔哩哔哩</a></p><h4 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h4><p>在写这篇博客之前，觉得自己有好多内容要写的，真的下笔了却不知该说些什么，草草了事。我写这篇博客目的就是表达一下自己知道了沙家浜居然是汪曾祺作品的一种兴奋激动的心情，其次也分享一下<a href="https://music.163.com/#/song?id=5266411">智斗- 网易云音乐 </a>这部非常优秀的京剧现代戏，样板戏并不是‘死板戏’，江青搞戏剧这一行还是专业的。</p><p>(2022&#x2F;7&#x2F;9 )最近新换了hexo主题，我对这一次的主题很满意，未来可能不会更换主题，这个主题或许会一直伴随着我的这个博客了，毕竟折腾主题是一件新奇有趣但没有意义的事情，我还是想把重心放在阅读、思考、分享上。</p>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;想当初老子的队伍才开张，拢共才有十几个人、七八条枪。&lt;/p&gt;
+&lt;p&gt;遇皇军追得我晕头转向，多亏了阿庆嫂，她叫我水缸里面把身藏。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+    <category term="随笔" scheme="http://hi-nikola.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>读点汪曾祺</title>
+    <link href="http://hi-nikola.cn/2022/06/17/%E8%AF%BB%E7%82%B9%E6%B1%AA%E6%9B%BE%E7%A5%BA/"/>
+    <id>http://hi-nikola.cn/2022/06/17/%E8%AF%BB%E7%82%B9%E6%B1%AA%E6%9B%BE%E7%A5%BA/</id>
+    <published>2022-06-17T22:27:18.000Z</published>
+    <updated>2026-06-12T09:27:56.580Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>团长掏出枪来，从后面，一枪就把他打下来了。<br>“我的女人，怎么能让他摸来摸去！她身上。除了我，任何男人都不许碰！这小子，太欺负人了！日他奶奶！”团长觉得怪委屈。</p></blockquote><span id="more"></span> <p>这篇小说就这样戛然而止，故事的主人公就这么被团长一枪打死，死的不明不白。汪曾祺的小说大都是这样，从村里的张三、李四、王五的聊起，张三是开裁缝店的，李四是开炮仗店的，王五是画画的，他们怎么经营自己的生意，发生了哪些事儿。没有起承转合，没有一波三折，故事平淡的开始又平淡的结束，却总是让人回味无穷，就像一些小馆的调料总是盖过食物本身的味道，乍一品尝味道浓厚，一下子就能吸引味觉，但多吃几次就觉得千篇一律甚至让人齁得慌。</p><p>上学的时候作文课上老师就爱教这种写文章的方法，一定要下猛料才能吸引阅卷老师的注意力，最好标题就来一个“UC震惊体”，段首肯定要来两句名人名言：<em>夏朔德</em>说过这是最好的时代，<em>约翰克里斯</em>说过我们必将走向光明，<em>周森人</em>说黑夜给了我黑色的眼睛，以致我夜夜碰壁。段尾再点题，肯定也要引用著名诗人<em>沃乱遍得</em>的一句话：林子有两条路我选择了行人稀少的那一条，它改变了我的一生。</p><p>学生时代，我深信这种方法，因为每次这种格式的套路总能让我在考试中获得高分，以至于我相信这种格式的文章是标准的好文章，每当我的作文作为范文被老师在班上朗读时，我无比的荣耀。回想学生时代种种，这件事让我深深汗颜，甚至后悔：我当初要是能够按照自己的想法天马行空该多好啊，最有想象力的年纪却被套上了一副枷锁，郑人学履最终忘却了自己该怎么走自己的路。当然，把自己文笔的乏味归结于少年时代的作文考试未免有在掩盖自己思想的匮乏之嫌疑，但是这段经历也给我现在阅读“品味”积攒了几点教训：</p><ol><li><p>不看书店门口的畅销书、成功学、心灵鸡汤</p></li><li><p>不看自媒体推荐人生必读，罗*浩、烦灯读书等更应该避而远之</p></li><li><p>不看名著导读，以及“从西游记学到的官场知识”“胡雪岩从商之道”知识等</p></li><li><p>少看哲学书，不看人生哲理的小故事</p></li><li><p>少看心理学书，尤其是中国人写的</p></li></ol><p>为什么我说不看就不必看呢？当然，你想看也行。这是我的博客，我写的博文，自然是我的观点。</p><p>至于写作，更应该随心所欲，能够清楚表达就行，不必追求语言多么华丽，立意多么高远，最重要的是切勿拙劣的模仿，写自己想写的话，不必顾忌太多，这也是我写博客的原因之一，因为博客其实是反流量，反推荐机制的，真正吸引来看博客的我想大概是”一类人“吧，因此不必顾忌太多，毕竟不是为了流量，没人愿意在自己的日记里编写谎言，反正我是不愿意的，之前网络上调侃”正经人谁写日记？“看到这类评论总是头疼，我是不大愿意相信一个人每日坚持日记就是为了给自己树立人设的，况且我们普通人就更没必要了。”正经人写日记怎么呢？“就是”好玩“而已！</p><p>上面说了这么多，和汪曾祺有很么关系呢？还是有点关系的，汪老的书，让我读得下去，读的有趣。我觉得读起来有趣的书很重要！举个例子：一个人忙碌了一整天，下班回到家，属实是不想再动弹，这个时候拿起汪老的书，是能够深入故事里的。那为什么不拿起抖音刷一会呢？当然是觉得抖音太无聊了，一个无聊的短视频接着另一个无聊的短视频，企图在短短几秒内抓住人的注意力，不就如同我上述提到的小馆菜品里重重的调味料吗？一个对生活失去兴趣的人是可怕的，日常的吃喝住行穿都是值得研究的，汪老喜欢看的书也足见他的兴趣所在：《东京梦华录》、《植物名实图考》、《容斋随笔》等。</p><pre><code class="纯文本">不早了 睡觉去了 明天接着写</code></pre><pre><code class="纯文本">早上好，睡饱了，继续开始。</code></pre><p>对于如何写小说，作者在《小说笔谈》中是这样谈及的：</p><ol><li>语言的唯一标准，是准确。</li></ol><blockquote><p>在校尉营一派出所外宣传夏令卫生的墙报上看到一句话：“残菜剩饭必须回锅见开再吃”，我觉得这也是很好的语言。<br>语言的目的是使人一看就明白，一听就记住。<br>语言的唯一标准，是准确。</p></blockquote><ol start="2"><li>小说的结构的特点，是：随便。</li></ol><blockquote><p>戏剧的结构像建筑，小说的结构像树。戏剧的结构是比较外在的、理智的。写戏总要有介绍人物，矛盾冲突、高潮，多少是强迫读者(观众)接受这些东西的。戏剧是愚弄。小说的结构是更内在的，更自然的。一棵树是不会事先想到怎样长一个枝子，一片叶子，再长的。它就是这样长出来了。然而这一个枝子，这一片叶子，这样长，又都是有道理的。从来没有两个树枝、两片树叶是长在一个空间的。</p></blockquote><ol start="3"><li>在叙事中抒情，用抒情的笔触叙事，少发议论</li></ol><blockquote><p>现在的年轻人写小说是有点爱发议论。夹叙夹议，或者离开故事单独抒情。这种议论和抒情有时是可有可无的。在叙事中抒情，用抒情的笔触叙事。怎样表现倾向性? 中国的古话说得好：字里行间。</p></blockquote><ol start="4"><li>唯悠闲才能精细，不要着急。</li></ol><blockquote><p>写小说就是要把一件平平淡淡的事说得很有情致(世界上哪有许多惊心动魄的事呢)。<br>同样一件事，一个人可以说得娓娓动听，使人如同身临其境；另一个人也许说得索然无味。<br>要把一件事说得有滋有味，得要慢慢地说，不能着急，这样才能体察人情物理，审词定气，从而提神醒脑，引人入胜。急于要告诉人一件什么事，还想告诉人这件事当中包含的道理，面红耳赤，是不会使人留下印象的。</p></blockquote><p>很喜欢《受戒》里描写明子和英子的片段，读起来总觉得明子在英子明前总是憨憨的，而英子总让人觉得清澈、天真，纯洁，就像夏日雨后的天空和湖面一样。这样的女孩子我最近只在汪曾祺的文字中这么强烈的感受到，我不知道怎么去形容这样的女孩，前面用到的“清澈、天真，纯洁”我总觉得描述的不准确总还缺少些什么，于是乎我就用“灵性”二字来概括吧。这个词我也是用来形容茶红的，在茶红身上我总是能感受到质朴而又热烈的情感，就像小英子那样。前几日有位博友留言评论<a href="https://hi-nikola.cn/2022/05/30/%E8%AE%B0%E5%A4%8F%E6%97%A5%E6%91%84%E5%BD%B1%E5%B0%8F%E4%BA%8B/" title="茶红的文章">茶红的文章</a>：</p><blockquote><p>小子：<br>噢，我的天啊，看这个人，内心是如此的细腻，文笔如此的文艺，通篇都满含着青少年才有的那种对美朦胧羞涩的向往，天啊，这太人嫉妒了</p></blockquote><p>非常感谢这位博友能够常来我的博客看看，毕竟这个博客可能就是我的一片世外桃源，基本没有告诉过什么人，我只是想在这里随意的记下自己想记录的东西，不受约束，无拘无束。当时把这条留言，转发给了茶红，茶红高兴地要跳起来，还特别嘚瑟的和我说：“我的美学可是走的是李泽厚朱光潜一路，压根就不是你想的白落梅安意如之流”，我哈哈大笑忙说“是的，是的，我怎么会把你和白落梅相提并论呢？”<del>说到这里不会有白落梅的粉丝来喷吧？我先加一个狗头表情包，表示为我们两人的调侃</del>。我摘录了《受戒》里的片段，真的是写的太好了，忍不住想分享给未曾看过这篇小说的人。</p><p>这是明子和英子初见的场景，是不是就觉得明子腼腆害羞，英子主动热情呢？</p><blockquote><p>到了一个河边，有一只船在等着他们。船上有一个五十来岁的瘦长瘦长的大伯，船头蹲着一个跟名字差不多的女孩子，在剥一个莲蓬吃。<br>明子听到有人跟他说话，是那个女孩子。<br>“是你要到荸荠庵当和尚吗？”<br>明子点点头。<br>“当和尚要烧戒疤哦！你不怕？”<br>明子不知道怎么回答，就含含糊糊地摇头。<br>……<br>小英子把剩下的半个莲蓬扔给明海，小明子就剥开莲蓬壳，一颗一颗吃起来。大伯一桨一桨地划着，只听见船桨拨水的声音：<br>“哗——许！哗——许！”</p></blockquote><p>作者描述英子俩姐妹的长相的片段也极为有意思。我第一次在文章里看到形容人好看是浑身上下，头是头，脚是脚的，因为在我们村里这是一句调侃的话，当形容一个毫无特色的女孩子时只能应付几句：“那看那个女孩儿，多好啊！头是头，脚是脚。” 因此读到这里时总觉得好笑。</p><blockquote><p>两个女儿，长得跟她娘像一个模子里托出来的。眼睛长得尤其像，白眼珠鸭蛋青，黑眼珠棋子黑，定神时如清水，闪动时像星星。浑身上下，头是头，脚是脚。头发滑滴滴的，衣服格挣挣的。<br>大姐说：“你一天到晚咭咭呱呱——”<br>“像个喜鹊！”<br>“你自己说的！——吵得人心烦！”<br>“心乱？”<br>“心乱！”<br>“你心乱怪我呀？”<br>小英子话里有话，大英子已经有人家了。</p></blockquote><p>这一段一起干活的场景，把明子对英子的暗恋写的美好。</p><blockquote><p>荸荠藏在烂泥里。赤了脚，在凉浸浸滑溜溜的泥里踩着，——哎，一个硬疙瘩！伸手下去，一个红紫红紫的荸荠。她自己爱干这生活，还拉了明子一起去。她老是故意用自己的光脚去踩明子的脚。她挎着一篮子荸荠回去了，在柔软的田埂上留了一串脚印。明海看着她的脚印，傻了。五个小小的趾头，脚掌平平的，脚跟细细的，脚弓部分缺了一块。明海身上有一种从来没有过的感觉，他觉得心里痒痒的。这一串美丽的脚印把小和尚的心搞乱了。</p></blockquote><p>结尾部分简直就是绝了！短短几句对话，英子和明子的感情跃然纸上。</p><blockquote><p>小英子忽然把桨放下，走到船尾，趴在明子的耳朵旁边，小声地说：<br>“我给你当老婆，你要不要？”<br>明子眼睛鼓得大大的。<br>“你说话呀！”<br>明子说：“嗯。”<br>“什么叫‘嗯’呀！要不要，要不要？”<br>明子大声地说：“要！”<br>“你喊什么！”<br>明子小声说：“要——！”</p></blockquote><p>我还把最后一段专门朗读给了茶红听，茶红没看过这篇小说，我觉得她和英子极其相似，由内而外，茶红也是白眼珠鸭蛋青，黑眼珠棋子黑，茶红说起话来也是连绵不绝像个喜鹊！不知道到时候她看完这篇小说后会不会认同我的观点呢？</p><p>暂时分享到这里吧，主要是大早上起来就开始敲字，里面的文章都是我一个字敲的，后来发现利用搜狗输入法可以扫描小说文字，但是我还是想自己一个字一个字敲进去。饿了，要去吃饭了，等后面还要多看几本汪曾祺的书，多写几篇他的文章，到时候再来个<del>读点汪曾祺2.0 3.0</del>？哈哈，到时候再看吧。</p>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;团长掏出枪来，从后面，一枪就把他打下来了。&lt;br&gt;“我的女人，怎么能让他摸来摸去！她身上。除了我，任何男人都不许碰！这小子，太欺负人了！日他奶奶！”团长觉得怪委屈。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+    <category term="随笔" scheme="http://hi-nikola.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>武汉二手书店探寻</title>
+    <link href="http://hi-nikola.cn/2022/05/14/%E6%AD%A6%E6%B1%89%E4%BA%8C%E6%89%8B%E4%B9%A6%E5%BA%97/"/>
+    <id>http://hi-nikola.cn/2022/05/14/%E6%AD%A6%E6%B1%89%E4%BA%8C%E6%89%8B%E4%B9%A6%E5%BA%97/</id>
+    <published>2022-05-14T10:47:30.000Z</published>
+    <updated>2026-06-12T09:27:56.553Z</updated>
+    
+    <content type="html"><![CDATA[<p>逛二手书店是个很奇妙的感觉。一方面总会在不经意间以极其便宜的价格淘到一本“稀罕”的书，另一方面二手书中的种种痕迹隐藏着岁月的故事。</p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081422555.JPG"></p><span id="more"></span> <ul><li><strong>泉之旧书社</strong></li></ul><p>书店位于司门口附近，青龙巷里。书籍繁多，需要自己慢慢挑选，老板和老板娘很亲切友好。</p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081422556.jpg"></p><ul><li><strong>红楼古旧书店</strong></li></ul><p>位于长春观对面。里面的书极多，种类繁多，可惜位置小了一点，很多书籍不方便拿取翻阅，需要老板帮忙。非常值得一去！</p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081422557.JPG"></p><ul><li>武大附近<strong>又合书舍</strong></li></ul><p>位于八一路上。地方很小，书籍品相好，会用书壳包装，但是价格很高，老板对自己的书也如数家珍，那天看到汪真祺编的知味集，第一版的99新，欢喜的不得了，但是价格不太能接受，于是只淘了一本黄永玉的书，欣然离开。</p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081422558.JPG"></p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081422561.JPG"></p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081422559.JPG"></p><ul><li><strong>集成古旧书社</strong></li></ul><p>武大附近，和又合书舍距离大概一两公里，书店很大，书籍很多，值得慢慢挑选，书店老板是一位老爷爷👨🏻‍🦳十分和蔼。</p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081422562.JPG"></p><ul><li><strong>泰宁街</strong></li></ul><p>江汉路步行街附近，沿着南京路一直走就可看到，泰宁街不仅仅有二手书还有各种古玩器具相机磁带CD。<br><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081422563.jpg"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;逛二手书店是个很奇妙的感觉。一方面总会在不经意间以极其便宜的价格淘到一本“稀罕”的书，另一方面二手书中的种种痕迹隐藏着岁月的故事。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081422555.JPG&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="随笔" scheme="http://hi-nikola.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>聊一聊我对互联网的思考</title>
+    <link href="http://hi-nikola.cn/2022/05/07/%E8%81%8A%E4%B8%80%E8%81%8A%E6%88%91%E6%9C%80%E8%BF%91%E4%B8%80%E7%9B%B4%E5%9C%A8%E6%80%9D%E8%80%83%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%9A%E4%BA%92%E8%81%94%E7%BD%91%E5%92%8C%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/"/>
+    <id>http://hi-nikola.cn/2022/05/07/%E8%81%8A%E4%B8%80%E8%81%8A%E6%88%91%E6%9C%80%E8%BF%91%E4%B8%80%E7%9B%B4%E5%9C%A8%E6%80%9D%E8%80%83%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%9A%E4%BA%92%E8%81%94%E7%BD%91%E5%92%8C%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF/</id>
+    <published>2022-05-07T20:56:24.000Z</published>
+    <updated>2026-06-12T09:27:56.575Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天兴趣来了，聊一聊互联网的发展，和我对短视频时代“问题”的一些想法。</p><span id="more"></span> <h3 id="互联网的发展史"><a href="#互联网的发展史" class="headerlink" title="互联网的发展史"></a>互联网的发展史</h3><p>这里不准备特别正式的讲它的发展阶段，全凭我的兴趣来吧。<br>1994年，中国正式接入互联网。<br>1997年，网易。<br>1998年，搜狐、腾讯、新浪、（谷歌）。<br>1999年，阿里巴巴。<br>2000年，百度。</p><p>经常看到有人谈论web1.0 、web2.0 、web 3.0，其实通俗的讲：</p><blockquote><p>web1.0 “只读”状态，网站提供什么，用户就查看什么，几乎没有互动，这个时期的许多门户网站：搜狐、网易、新浪。<br>web2.0 “互动“状态，用户可以在网络平台上传自己的内容，互联网从<strong>“平台向用户的单向传播”</strong>，变成了<strong>“用户与用户的双向互动”</strong>，像现在的抖音、豆瓣、知乎、推特。<br>web3.0“交互”状态，智能机器广泛参与到网络过程中来。</p></blockquote><p>对于web3.0 有观点也认为是<strong>用户</strong>创造、<strong>用户</strong>所有、<strong>用户</strong>控制，代表：区块链、元宇宙、DAO、NFT。</p><p>再聊一聊博客的发展，2002年，虽然是互联网的寒冬，但是也是中国的博客元年，那一年方兴东创办了博客中国。至于博客是怎么火起来的呢？我也是今天写文章的时候才知道：2004年的时候，有个叫木美子的女人带火了博客。话说刚刚好奇她的《遗情书》，到底是怎么样的内容当年能火成那样？去看了看原作，写的真不错，果然人类进步是靠性来推动的啊。</p><blockquote><p>直到2004年木子美事件，才让中国民众了解到了博客，并运用博客。<br>国内各门户网站，如新浪、搜狐加入博客阵营，2005年，腾讯也开通博客，也就是现在的QQ空间。</p><p>木子美是一名编辑、网络作家，广东人，成名大作是《遗情书》。2003年开始在网上公开自己的性爱日记，尤其是与某摇滚乐手的“一夜情”细节，而“一炮而红”，形成“木子美现象”引发网友热议。</p></blockquote><h3 id="目前的互联网现状"><a href="#目前的互联网现状" class="headerlink" title="目前的互联网现状"></a>目前的互联网现状</h3><p>从早期的BBS、博客到后来的SNS–QQ、贴吧、微博,到短视频 ，信息传递的形式一直在变化。</p><p>不知道大家是否清楚blog 、vlog、 plog三者，前几年欧阳娜娜带火了vlog，随后又玩起了plog.</p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081425765.jpg"></p><p>目前大火的肯定是短视频了，抖音快手火了之后其他平台纷纷加入，现在的网易云音乐、微信、微博都有短视频的入口，或许对这些互联网大厂来讲，想赚钱就必须涉及社交平台、引入短视频。</p><h3 id="我的小烦恼"><a href="#我的小烦恼" class="headerlink" title="我的小烦恼"></a>我的小烦恼</h3><p>1.低质量的内容太多了</p><p>现在能够写博客的人都是少数了，为什么呢？因为现在火的是微博、短视频，为什么这些火了？因为微博、抖音具有传播优势，短而快的内容更易于人们接受。但是问题就来了，他们的内容容量也决定他们的内容趋向于生活化和娱乐化，无法涉及更深度的讨论，而博客不一样，博客的内容需要思想化，需要花费更多的时间来写作、思考、查阅资料。<em>就比如这篇文章我以为我自己一个小时就可以搞定的，结果三个小时了才磕磕绊绊的写完，在写作的过程中遇到了一些知识盲区，我都需要是查验一下，再继续写作，这是我在发表微博或者短视频时基本不会遇到的。</em></p><p>那么问题就来了，我现在需要的不是短而快的内容，我需要的是有价值、经过思考的的内容，这些都是目前流行的平台没办法带给我的。每天打开微博都是明星绯闻，或者屁大点事（某某女性机场照、某某综艺又火了）、抖音都是一些标题党（震惊！经常熬夜的人……）,或者一些新奇但无聊的内容，当然了，也是有科普视频的，但是这些内容我随便找来一本相关书籍都比他详细具体。</p><p>2.算法推荐到底带给我什么？</p><p>我也不知道算法推荐到底是从什么时候开始的，反正淘宝会推荐我曾经搜索过的类似的物品，头条会推荐一些我看过的新闻报道，抖音会推荐我看过的类似的短视频，离谱的是可能我在知乎刷过的某个音乐推荐歌单，在我打开网易云音乐时正好出现（举个例子而已，类似的事出现过多次）这些算法到底是服务了我的生活还是侵犯了我的隐私？到底需不需要这些推荐呢？我的回答是：当我知道自己想要什么的时候，请你不要推荐给我，并且我可以自主选择是否关闭推荐机制。想想看这样的场景：我偶尔一次在B站搜索过“脱发”，我并不需要治疗脱发，只是了解，然而在接下来的日子里抖音给我推荐“熬夜导致脱发”，淘宝给我推荐治疗脱发的药膏，头条刷出“震惊！一男子因吃xxx一夜之间，头发竟然长起来了”的新闻。脱发一下子成了块牛皮鲜怎么甩也甩不掉，原因只是因为我偶尔一次在B站搜索过“脱发”……商业把人的行为数据化进而通过这些手段来谋取他们最大的利益还美其名曰：为人民服务。</p><p>3.互联网越来越开放了吗？</p><p>每天都在生产数据，互联网的内容越来越多，但是噪音却越来越大，而且互联网似乎在变得越来越封闭，打开网页看到一条有趣的视频却需要下载某某APP才能继续观看，天啊，到底是谁想出的这么让人难受的东西！通过搜索引擎并不容易搜索到所有平台的内容，看短视频要下载抖音，看公众号一定要通过微信端，资本家们都想获得流量的入口，或者说我这种“只通过一个平台就可以获得信息”的想法就是天真的，<a href="https://zhuanlan.zhihu.com/p/66134662">互联网会走向越来越封闭吗？</a></p><p>4.热搜真的是热搜吗？</p><p>经常看到微博热搜排行出现一些我根本不关心的内容，这个时候我就在想这个热点是在某个圈子里很火了吗？同样的知乎等也是一样的，这些上了热搜的新闻真的是这个时间段里绝大多数人关心的新闻吗？显然不是，可以得出这样一个结论，热搜不代表大多数人，这个结论是很有意思的，既然并不是绝大多数人关注，那么热搜的意义是什么呢？绝大多数人希望看到的新闻是否能上热搜呢？是哪些人在制造这些热搜呢？——热搜只不过是虚假的热闹而已。像我这等为了生活拼命奔波，累的都懒得打字对线的人基本不会在网络上发声，所以像我这样基本不在网络上发声的人到底有多少呢？<br><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081425764.png"></p><p>5.互联网的戾气是不是越来越重了？</p><p>不知道互联网是什么时候打响的“男权女权”第一枪，总感觉现在的互联网越来越多的谈论着更敏感的话题：人口结构、工资福利、贫富差距、性别……这些话题不停的在网上翻来覆去的出现，时刻可能引爆仅有的一丝平静。这些问题是事实吗？有解决办法吗？我们究竟是在发泄情绪还是企图解决问题？在论坛上我看到这样一个帖子<a href="https://www.chongbuluo.com/forum.php?mod=viewthread&tid=12280&extra=">知乎怎么了？</a>里面有几点观点是可以思考的：</p><blockquote><p>知乎的 F 轮融资，投资方正是百度和快手，百度也在此后不但不排挤知乎，反而给予更多流量扶持，用知乎流行的一个词来说就是——利益相关。</p><p> 话题的二元对立可以引发争论带来流量。</p><p>通过诱导舆论，可以让少数人的言论被当成了大家的共识，而沉默的大多数人以为自己是少数。</p></blockquote><h3 id="决心做出改变"><a href="#决心做出改变" class="headerlink" title="决心做出改变"></a>决心做出改变</h3><p>之前看到某位博主说：远离中文社交媒体，它会给你带来不幸。既然目前大火的媒体、平台都没办法满足我，而且干扰我的生活、占用我的时间，我干脆统统抛弃！卸载了豆瓣、知乎、微博等 只在有需要的时候通过web查阅，我发现不看这些东西对我的生活一点影响都没有，不知道某某新闻、某某热点事件不会影响我的生活。相反，当我需要这些材料然后去刻意获取的时候我能更清楚理清楚脉络。</p><hr><p>今天就写道这里吧，有机会再补充！写博客的的确确是需要时间和知识储备的~</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;今天兴趣来了，聊一聊互联网的发展，和我对短视频时代“问题”的一些想法。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="随笔" scheme="http://hi-nikola.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>谈谈我对摄影的一些思考</title>
+    <link href="http://hi-nikola.cn/2022/04/30/%E6%88%91%E5%92%8C%E6%91%84%E5%BD%B1/"/>
+    <id>http://hi-nikola.cn/2022/04/30/%E6%88%91%E5%92%8C%E6%91%84%E5%BD%B1/</id>
+    <published>2022-04-30T00:34:57.000Z</published>
+    <updated>2026-06-12T09:27:56.548Z</updated>
+    
+    <content type="html"><![CDATA[<p><del>我对摄影的思考</del>，我对拍照的看法。</p><p>2020年疫情被封在家里几个月，实在无聊，就玩起了买了一年多的相机，首先是是对相机的了解，其次是对摄影技术的了解（光圈、快门、ISO、对焦等），然后是构图、光线，最后是审美的提升。现在发现，学习摄影最直接的方式是看说明书+看摄影作品，仅仅靠这两个就够了！网上各种摄影教学视频，质量参差不齐，建议选择性观看，如果你不知道怎么学习，网络上有很多摄影学习途径的总结，大家可以去查阅。这里我推荐一下原画册这个公众号，大家可以看看，我觉得质量是很高的。</p><span id="more"></span> <p>先说说学习摄影中应该注意的一些问题：</p><p>1.在观念上一定要摆正。什么意思呢？就是明确摄影的目的，究竟为什么学习摄影！如果不是为了商业（就是通过拍照赚钱），请记住：<strong>拍自己喜欢的就好</strong>，怎么开心怎么拍！最开始不要因为在意自己拍的不好看而不拍。很多人一开始不会拍照，不懂得基本的摄影技巧，乱按快门，看到自己拍的一塌糊涂的照片后很沮丧，觉得自己没有摄影的天赋。其实这个时候就需要摆正心态：人都是从不会到会，这是一个过程，一个阶段，首先要接纳这个阶段的自己，保持学习，了解摄影的知识，才能走出这个阶段。进而，又会有很多人会陷入技术的误区，琢磨着光圈、快门、构图、光影、色彩等，有的后来会发展成为器材党，这个时候难道不应该停下来反思一下：我究竟为什么而拍照吗？可能最开始就只是想给自己的家人、女朋友拍照或者简单记录一下自己生活，既然这样为何要陷入技术的泥潭里面呢？技术够用就行了，重点放在自己想拍的内容。</p><p>2.摄影应该把核心放在：记录和表达。对于大多数人，拍照的目的无非就是两种：<strong>记录和表达</strong>。拍拍自己今天的午餐、自己工作的环境，这些都是记录，这些记录很真实，可能照片并不“美”，但是却是自己实实在在拍出来的最真实的样子，这些照片经历时间的洗刷，比如十年后再看看这些照片，可能是不一样的感觉。所以，对于一些目前不是很满意的照片，不妨换个角度，想象自己要是十年后再看会产生什么样的心情呢？所以从这个角度出发，如果男朋友拍下自己的丑照，是不是就不会暴跳如雷呢？毕竟十年后再看自己的这些照片那些“丑照”可能远远比精心摆pose然后高P的照片要有意思的多。那什么是表达呢？（这里要说一下，表达和记录是不一样的，出发点不一样导致结果不同）表达是在某个主题、某个想法下拍出来的一张（组）照片，更多的是对记录的一种提炼，所以我建议（我对自己的要求）尽量的多拍，带着项目的思维去拍照，更多的通过一组照片来表达自己的想法，而不是一张照片（一张照片出彩会很难，而且也是需要有概率能够拍到这些画面的）。</p><p>3.对好的照片的理解。究竟什么是好的照片？可能比较经典的回答是纽约摄影中提出来的：主题明确、主体突出、画面简洁。我最开始学摄影的时候也是带着这三个要求去拍摄的，但是，真的是这样吗？来看看下面这几张照片：</p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081511544.jpg"></p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081511551.jpg"></p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081511543.jpg"></p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081511541.jpg"></p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081511542.jpeg"></p><p>以上这些照片大家觉得满足纽摄三要素吗？好像不太满足。但是是不是感觉拍的还可以？可能有读者觉得这些拍的都是什么鬼。这里就公布一下摄影师:川内伦子、史蒂芬肖尔。（这里有人又会说大佬拍的照片一定是好照片吗？大佬就不会拍烂片吗？本文目前不讨论这个问题，仅仅是希望能让各位读者朋友们换一个观看照片的角度）。不满足所谓的纽约摄影标准的照片不一定不是好照片，从知乎上大家也可以搜索到类似的问题：<a href="https://www.zhihu.com/question/31769276">手机里自己最喜欢的照片是哪张？ - 知乎 </a>，里面很多有趣的照片，这些照片满足了三要素吗？但是我还是觉得还挺不错的。这里我想说的是，随着时代的发展对摄影的认识也在改变，大家不要用传统的纽摄三要素的标准来定义一张好的照片了，应该拓宽自己的审美光谱。</p><p>4.<strong>很多人很难同时看到天空和蓝色</strong>：对色彩的认识。在很早之前摄影一直是黑白主导的，彩色被认为是粗鄙的。但是随着时代的发展，思想在进步。然而现在很多人的思维仍然一直停留在“远古”时期。大家再来看看这几张照片：</p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081511546.jpg"></p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081511545.jpg"></p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081511549.jpg"></p><p>这些照片似乎找不到主题，没有内容，没有讲述精彩的瞬间，但是，朋友们，请放下你脑袋里面的任何想法，just feel， Do not think！来看看这些照片，颜色是很美的对吧？颜色不仅仅是这些物体的属性也是他们本身啊！</p><p>尝试把一些相似的颜色组合起来也很有意思，这里放一些我的照片，大家感受一下。</p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081511554.jpeg"></p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081511553.jpeg"></p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081511552.jpeg"></p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081511555.jpeg"></p><p>!<img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081511556.jpeg"></p><p>所以，总结一下：<strong>去拓宽自己的审美认知。多去感受一张照片，而不仅仅是用各种标准来约束自己！</strong></p><p>来说说我喜欢的摄影师（比较有代表性的）：<br>川内伦子<br>埃里克·索斯<br>威廉·艾格斯顿<br>214</p><p>并且在这里我强烈建议，如果可以的话，去看看你喜欢的摄影师的个人摄影网站（经济条件允许，可以选择画册）。这里我推荐原画册的这篇公众号文章：<a href="https://mp.weixin.qq.com/s/Bd4OWH5w8O1c84nLCSeJag">为什么要看摄影师的个人网站？</a></p><blockquote><p>画册比较贵、展览不常有、网络信息杂，其实个人网站是个性价比很高的欣赏窗口。<br>某种意义上来说，散见于互联网的作品是很难get到真正魅力的，在个人网站上，加持设计感、交互感和作品系统性，才能将摄影的魅力真正展现。<br>图虫和500px等摄影门户网站，无论再独立，也终究是为流量和资本服务，所见推荐依然是投大众所好，底层逻辑依然以单张的视觉猎奇为主。<br>而通过个人网站可以深入了解摄影师创作的脉络，看到他们的项目、成长过程，还有文字、视频材料予以辅助。同时，可以学习他们的个人品牌运营方式。</p></blockquote><p>同时，也给出了推荐：水谷吉法、细仓真弓、井津建郞、杉本博司  等</p><p><img src="https://hi-nikola.oss-cn-hangzhou.aliyuncs.com/blog/202207081511550.png"></p><p>而且我发现感受力是非常重要的，这个东西很虚但是就是实实在在存在，比如有的人他能发现更多的细节，对一些东西会有不同的感受，那么他拍出来的照片就会带给人不同的感受。如果你没有，那也没有关系！拍就完事了，毕竟摄影应该是一件让人开心的事情，即使没有天赋也不应该影响自己去享受这份快乐！</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;del&gt;我对摄影的思考&lt;/del&gt;，我对拍照的看法。&lt;/p&gt;
+&lt;p&gt;2020年疫情被封在家里几个月，实在无聊，就玩起了买了一年多的相机，首先是是对相机的了解，其次是对摄影技术的了解（光圈、快门、ISO、对焦等），然后是构图、光线，最后是审美的提升。现在发现，学习摄影最直接的方式是看说明书+看摄影作品，仅仅靠这两个就够了！网上各种摄影教学视频，质量参差不齐，建议选择性观看，如果你不知道怎么学习，网络上有很多摄影学习途径的总结，大家可以去查阅。这里我推荐一下原画册这个公众号，大家可以看看，我觉得质量是很高的。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="摄影" scheme="http://hi-nikola.cn/tags/%E6%91%84%E5%BD%B1/"/>
+    
+  </entry>
+  
+</feed>
